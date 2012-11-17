@@ -1,0 +1,45 @@
+BASeCamp CDebug Class Debug Log output.
+log at 12/29/2009 on TERATRON as BC_Programming at 12:37.22
+################################################################################
+System Info for this session:
+Environment variables:
+
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\BC_Programming\AppData\Roaming
+CG_BOOST_ROOT=C:\Program Files (x86)\CodeGear\RAD Studio\6.0\include\boost_1_35
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=TERATRON
+ComSpec=C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK=NO
+HOMEDRIVE=C:
+HOMEPATH=\Users\BC_Programming
+LOCALAPPDATA=C:\Users\BC_Programming\AppData\Local
+LOGONSERVER=\\TERATRON
+NUMBER_OF_PROCESSORS=4
+OPENSSL_CONF=C:\OpenSSL\bin\openssl.cfg
+OS=Windows_NT
+Path=C:\Python\Scripts;C:\Python\;C:\Program Files (x86)\CodeGear\RAD Studio\6.0\bin;C:\Users\Public\Documents\RAD Studio\6.0\Bpl;C:\Perl\site\bin;C:\Perl\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin;C:\Program Files (x86)\Common Files\microsoft shared\MSENV;C:\Program Files (x86)\Common Files\microsoft shared\VSA\9.0\VsaEnv;C:\PROGRA~2\Borland\Delphi6\Bin;C:\PROGRA~2\Borland\Delphi6\Projects\Bpl;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files (x86)\backburner 2\;C:\Users\BC_Programming\AppData\Roaming\Python\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin;C:\Program Files (x86)\Common Files\microsoft shared\MSENV;C:\Program Files (x86)\Common Fi
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.py;.pyw
+PROCESSOR_ARCHITECTURE=x86
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 23 Stepping 7, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=1707
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files (x86)
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PUBLIC=C:\Users\Public
+SystemDrive=C:
+SystemRoot=C:\Windows
+TEMP=C:\Users\BC_PRO~1\AppData\Local\Temp
+TMP=C:\Users\BC_PRO~1\AppData\Local\Temp
+USERDOMAIN=TERATRON
+USERNAME=BC_Programming
+USERPROFILE=C:\Users\BC_Programming
+VS90COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\Tools\
+windir=C:\Windows
+__COMPAT_LAYER=RunAsAdmin RunAsAdmin 
+

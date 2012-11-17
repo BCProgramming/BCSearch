@@ -1,0 +1,5 @@
+BASeCamp CDebug Class Profiler Output.
+log at 01/04/2010 on TERATRON as BC_Programming at 09:12.27
+
+Profile data is in CSV format. Import into Excel! :P
+Procedure Name,Times Called,Total Time (Sec),Average Time(Sec)

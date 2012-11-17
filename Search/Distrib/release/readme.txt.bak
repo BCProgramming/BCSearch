@@ -1,0 +1,69 @@
+BASeCamp "Search" Version 1.1
+
+
+Note that it is still a sort of beta, since I'm the only one who has used it. I encourage and even welcome bug reports. 
+(especially serious ones, which crash the app).
+
+The installer should create a start menu group for the program.
+
+USAGE:
+
+hopefully, most of the controls are fairly self-explanatory. However, I will explain the idiom I've used for "filters".
+
+a "Filter" is merely a set of specifications for a file. IE, size, date, filespec, etc. In the top listview presented in the main window is the list of active filters.
+Filters can be added,removed, edited and cleared. Clearing the filters can be achieved with the "new Search" button.
+To Add a filter, Click the "Add" button, to the left of the Filters Listview. The Filter is created and an editing window is opened for it.
+
+
+On this page, take note that options not filled out are not taken into account during the search operation. Also of note is that the Tab for Alternate Data Stream specifications is empty at this point; I decided to release it now, rather then futz about for who knows how long.
+Other features I intend on adding are the ability to search based on EXIF image data as well as ID3 tags. As it stands now the "appearance" settings are a bit haphhazard, too.
+
+
+
+Filter(s)
+
+Specifies the filters to use. note that the semicolon ";" can be used to separate multiple file specifications. the filter will pass if the file matches any of these specifications.
+
+
+Attributes:
+
+place a check in any box whose attribute you wish to be part of the search results. By default, specifying, for example, "Hidden" will find files that have the Hidden attribute set, which could include "system" files. For an
+exact match to a set of specifications, place a check in the "Match attributes exactly" checkbox.
+
+Size:
+
+Fairly Straightforward; note that if 0 is specified in either box that box will be ignored- for example, by setting the "smaller than" value to 0 and the larger than value to "2 KB", one could search for any file larger then 2KB.
+
+Dates:
+
+This small box will show the current set of Date filters in effect. by default, any date is accepted. To change the date filters for this filter, click the "Change" button below the box. This will show a "sub-dialog" for editing the date specifications of that filter.
+
+there is a known issue when the dates form is first shown in that although the checkboxes and unchecked all sets of datepickers are enabled. This is merely cosmetic and does not affect the changes to the filter.
+
+
+the results:
+
+Once you've created all your filters, click "Find Now" to start the search.
+
+When the search completes (indicated by the changed enabled states of the buttons...) the bottom pane contains the items found during the search.
+
+The right click menu and the menu bar can be customized by editing the MENUXML.XML file. Make sure to make a backup!
+
+
+
+Changelog: 
+
+version 1.0: Initial release.
+
+Version 1.1: minor revisions. changed "imagelist" handling to use the System imagelist for reduced memory consumption, added Directory Size Analyzer, fixed Listview Right-Click behaviour in main search window.
+
+
+
+
+
+
+
+
+
+
+

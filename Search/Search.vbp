@@ -1,0 +1,165 @@
+Type=OleExe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\Program Files (x86)\VBReFormer\stdole2.tlb#OLE Automation
+Reference=*\G{C84395DD-A841-11D4-B06C-00500427A693}#1.7#0#C:\Program Files (x86)\BASeCamp\BCSearch\DLL\cNewMenu6.dll#vbAccelerator VB6 Popup Menu DLL.  Create unlimited new pop-up menus.
+Reference=*\G{3181A65A-CC39-4CDE-A4DF-2E889E6F1AF1}#1.51#0#..\..\..\..\ActiveX\Collected\olelib.tlb#Edanmo's OLE interfaces & functions v1.81
+Reference=*\G{420B2830-E718-11CF-893D-00A0C9054228}#1.0#0#C:\Windows\SysWOW64\scrrun.dll#Microsoft Scripting Runtime
+Reference=*\G{3F4DACA7-160D-11D2-A8E9-00104B365C9F}#5.5#0#C:\Windows\system32\vbscript.dll\3#Microsoft VBScript Regular Expressions 5.5
+Reference=*\G{8B217740-717D-11CE-AB5B-D41203C10000}#1.0#0#C:\Program Files (x86)\VBReFormer\TLBINF32.DLL#TypeLib Information
+Reference=*\G{0FB1168E-83E1-4707-B43C-CA842D56EE04}#1.0#0#C:\Program Files (x86)\BASeCamp\BCSearch\DLL\GDIPlusWrapper.dll#GDIPlusWrapper
+Reference=*\G{3C4B4A34-9EF8-42A6-87A2-D2383DDC1EDB}#1.0#0#..\..\..\..\ActiveX\GDIplus_Type_Library\GDIplus.tlb#GDI+ Type Library 1.05 (dseaman@uol.com.br)
+Reference=*\G{71A2702D-C7D8-11D2-BEF8-525400DFB47A}#1.1#0#C:\Program Files (x86)\BASeCamp\BCSearch\DLL\SSubTmr6.dll#vbAccelerator VB6 Subclassing and Timer Assistant (with configurable message response, multi-control support + timer bug fix)
+Reference=*\G{87166784-40A3-4B3A-93C2-B5D2E265E6DF}#1.0#0#C:\Program Files (x86)\BASeCamp\BCSearch\DLL\BC_XML.dll#VB6 Implementation of an XML Parser
+Reference=*\G{0E59F1D2-1FBE-11D0-8FF2-00A0D10038BC}#1.0#0#C:\Windows\SysWOW64\msscript.ocx#Microsoft Script Control 1.0
+Reference=*\G{EF53050B-882E-4776-B643-EDA472E8E3F2}#2.7#0#C:\Program Files (x86)\Common Files\System\ado\msado27.tlb#Microsoft ActiveX Data Objects 2.7 Library
+Reference=*\G{00000600-0000-0010-8000-00AA006D2EA4}#6.0#0#C:\Program Files (x86)\Common Files\System\ado\msadox.dll#Microsoft ADO Ext. 6.0 for DDL and Security
+Reference=*\G{328BACD6-68B8-4E84-9560-C7BF7C293D28}#1.0#0#..\..\cmdparse\BCCParser.dll#BASeCamp CommandLine Parser
+Reference=*\G{6BEF7821-4483-4468-A373-5AE2782A8AC4}#2.0#0#..\BCFile.dll#BASeCamp Extended File Access Objects
+Object={5F37140E-C836-11D2-BEF8-525400DFB47A}#1.1#0; vbalTab6.ocx
+Object={86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}#2.0#0; MSCOMCT2.OCX
+Object={AFFDD50D-733B-4E1C-8F98-E88F1ED6980D}#1.0#0; vbaListView6BC.ocx
+Object={E142732F-A852-11D4-B06C-00500427A693}#1.14#0; vbalTbar6.ocx
+Object={831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.1#0; MSCOMCTL.OCX
+Object={77EBD0B1-871A-4AD1-951A-26AEFE783111}#2.1#0; vbalExpBar6.ocx
+Object={2210EC79-A724-4033-AAF4-790E2467C0E8}#1.1#0; vbalCmdBar6.ocx
+Form=C:\Program Files (x86)\Microsoft Visual Studio\VB98\FrmSearch.frm
+Class=cNoStatusBar; cNoStatusBar.cls
+Module=ModMain; ModMain.bas
+Class=cAnimControl; cAnimControl.cls
+Class=CXMLLoader; ..\..\MODULES\Class Modules\CXMLLoader_VB.cls
+Class=Application; Application.cls
+Form=FrmSearchSpec.frm
+Form=FrmDateEdit.frm
+Class=CFormDataSaver; CFormPositionSaver.cls
+Class=CAutoCompleteCombo; ..\..\MODULES\Class Modules\CAutoComplete.cls
+Class=CINIData; ..\..\MODULES\Class Modules\CINIData.cls
+Form=FrmAbout.frm
+Module=mdlTooltip; mdlTooltip.bas
+Class=clsTooltip; clsToolTip.cls
+Class=CNumericTextEntry; CNumericTextEntry.cls
+RelatedDoc=readme.txt
+Class=CExtraFilterData; CFilterAppearance.cls
+Module=modMP3; ..\modmp3tag.bas
+Class=CID3TagData; CID3TagData.cls
+Class=IColumnPlugin; IColumnPlugin.cls
+Class=CMP3Columns; ColPlugins\CMP3Columns.cls
+Class=CEXIFColumns; CEXIFColumns.cls
+Form=FrmProperties.frm
+Class=CExifData; CExifData.cls
+Class=CEventPropagator; ..\..\MODULES\Class Modules\CEventPropagator.cls
+Form=C:\Program Files (x86)\Microsoft Visual Studio\VB98\FrmDirSizeAnalyzer.frm
+Class=cVBALSysImageList; cVBALSysImageList.cls
+Class=cProgressBar; ..\..\..\..\ActiveX\pbar\cProgressBar.cls
+Class=pcMemDC; ..\..\..\..\ActiveX\pbar\pcMemDC.cls
+Class=CAlternateStreamColumns; CAlternateStreamColumns.cls
+Form=FrmColumnPlugins.frm
+Class=CFormSizeControl; ..\..\MODULES\Class Modules\CFormSizeControl.cls
+Module=ModDWM; ..\..\MODULES\Code Modules\ModDWM.bas
+Class=cRegistry; ..\..\MODULES\Class Modules\clsregistry.cls
+Class=cResource; ..\..\MODULES\Class Modules\cresource.cls
+Class=CMonitor; ..\..\MODULES\Class Modules\CMonitor.cls
+Module=MMonitors; ..\..\MODULES\Class Modules\MMonitors.bas
+Class=CExtraColumns; ..\CExtraColumns.cls
+UserControl=..\..\BCUpdate\downloader.ctl
+Class=cStringBuilder; ..\..\MODULES\Class Modules\cStringBuilder.cls
+Class=CVersionColumns; ColPlugins\CVersionColumns.cls
+Class=CWindow; ..\..\MODULES\Class Modules\CWindow.cls
+Class=CDebug; ..\..\MODULES\Class Modules\CDebug.cls
+Form=..\..\MODULES\Forms\FrmDebug.frm
+Class=DataStack; ..\..\MODULES\Class Modules\BStack.cls
+Class=CDBIndex; CDBIndex.cls
+Class=IExportPlugin; IExportPlugin.cls
+Class=cHTMLExporter; cHTMLExporter.cls
+Form=FrmAction.frm
+Class=CActionFilter; CActionFilter.cls
+Class=IProgress; IProgress.cls
+Class=ROTSupport; ..\..\MODULES\Class Modules\clsROTsupport.cls
+Class=CListViewGrouper; CListViewGrouper.cls
+Class=cPicAnimator; ..\..\MODULES\Class Modules\cPicAnimator.cls
+Form=..\..\MODULES\Forms\FrmTextEdit.frm
+Class=CSplitterBar; ..\..\MODULES\Class Modules\CSplitterBar.cls
+Class=CItemExtraData; CItemExtraData.cls
+Class=cVBALImageList; ..\..\MODULES\Class Modules\cVBALImageList.cls
+ResFile32="searchres.RES"
+Startup="Sub Main"
+HelpFile=""
+Title="Search"
+ExeName32="Search.exe"
+Command32="/menuxml:menuxml.xml"
+Name="BASeSearch"
+HelpContextID="0"
+Description="BASeCamp BCSearch File Search Application"
+CompatibleMode="0"
+CompatibleEXE32="Search.exe"
+MajorVer=2
+MinorVer=1
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionComments="BASeCamp BCSearch File Search Application"
+VersionCompanyName="BASeCamp Corporation"
+VersionLegalCopyright="Copyright 2008-2009 BASeCamp Corporation"
+VersionProductName="BCSearch"
+CondComp="ExplorerBar = 1"
+CompilationType=0
+OptimizationType=1
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+DebugStartupOption=0
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[TaskList]
+Num=6
+
+[TASK1]
+Description=Create Volume And Volumes Collections.
+Status=1
+Priority=1
+AssignedTo=Me
+Comment=Create Volume And Volumes Collections for easy access to system Volumes.
+
+[TASK2]
+Description=Add code to save previous combobox entries for autocomplete...
+Status=0
+Priority=1
+AssignedTo=Me
+
+[TASK3]
+Description=Add splitter bar
+Status=0
+Priority=1
+AssignedTo=Me
+
+[TASK4]
+Description=Investigate mysterious Wide version bug
+Status=2
+Priority=1
+Comment=BCSearch crashes when ForceANSI is set to ON in BCFile- seems to be related to the commandbar control- why?  RESOLVED: was a bug deep within the File search API wrappers. had to do with byte alignment, I believe.
+
+[TASK5]
+Description=Fix-up column options...
+Status=0
+Priority=1
+Comment=change column menu from Ctrl+Click on the columns to right-click.
+
+[TASK6]
+Description=enhance "RequestNewInstance" cloning
+Status=0
+Priority=1
+AssignedTo=
+Comment=clone more style properties from index (0)...  Also, add loading from the INI of more command bar properties.
+
+[CodeSMART]
+Task_UID=06_11_09_11_11_54

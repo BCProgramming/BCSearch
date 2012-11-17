@@ -1,0 +1,7 @@
+// Icons for this application
+AAA      ICON    MOVEABLE        PRELOAD         Search_Icon.ico
+ARROW_DOWN GIF   MOVEABLE        PRELOAD         "res\\arrow-down.gif"
+ARROW_NONE GIF   MOVEABLE        PRELOAD         "res\\arrow-none.gif"
+ARROW_UP   GIF   MOVEABLE        PRELOAD         "res\\arrow-up.gif" 
+SORTCSS    CSS   MOVEABLE        PRELOAD         "res\\htmlsort.css"
+SORTSCRIPT JSS   MOVEABLE        PRELOAD         "res\\sortable.js"

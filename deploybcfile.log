@@ -1,0 +1,498 @@
+Make My Manifest 0.7.300
+Tuesday, November 03, 2009 @ 6:54:01 AM
+
+Host OS = Windows 6.00 Service Pack 2 (Build 6002)
+Host = TERATRON
+User = BC_Programming
+
+Project folder = D:\VBPROJ\VB\BCFile\
+VB project file = BCFile.vbp
+
+Project:
+  Name = BCFile
+  Company = BASeCamp Corporation
+  Description = reate Volume And Volumes Collections
+  EXE name = BCFile.dll
+  EXE path = Search\Distrib\release\
+  Version = 1.5.0.0
+
+Libraries: 11
+
+  stdole
+    Description = OLE Automation
+    File location = C:\Windows\SysWOW64\stdole2.tlb
+    Typlib ID = {00020430-0000-0000-C000-000000000046}
+    Version = 2.0
+    Flags = *none*
+    *Excluded*
+
+  Scripting
+    Description = Microsoft Scripting Runtime
+    File location = C:\Windows\SysWOW64\scrrun.dll
+    Typlib ID = {420B2830-E718-11CF-893D-00A0C9054228}
+    Version = 1.0
+    Flags = *none*
+    *Excluded*
+
+  MSVCRT
+    Description = <Standard or unregistered DLL/OCX>
+    File location = C:\Windows\SysWOW64\MSVCRT.dll
+    Typlib ID = n/a
+    Version = 0.0
+    Flags = *none*
+    *Excluded*
+
+  MSScriptControl
+    Description = Microsoft Script Control 1.0
+    File location = C:\Windows\SysWOW64\msscript.ocx
+    Typlib ID = {0E59F1D2-1FBE-11D0-8FF2-00A0D10038BC}
+    Version = 1.0
+    Flags = *none*
+
+    CoClasses: 6
+
+      Procedure
+        Description = Describes a procedure
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {0E59F1DA-1FBE-11D0-8FF2-00A0D10038BC}
+
+      Procedures
+        Description = Collection of procedures
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {0E59F1DB-1FBE-11D0-8FF2-00A0D10038BC}
+
+      Module
+        Description = Context in which functions can be defined and expressions can be evaluated
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {0E59F1DC-1FBE-11D0-8FF2-00A0D10038BC}
+
+      Modules
+        Description = Collection of modules
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {0E59F1DD-1FBE-11D0-8FF2-00A0D10038BC}
+
+      Error
+        Description = Provides access to scripting error information
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {0E59F1DE-1FBE-11D0-8FF2-00A0D10038BC}
+
+      ScriptControl
+        Description = Control to host scripting engines that understand the ActiveX Scripting interface
+        ProgID = MSScriptControl.ScriptControl.1
+        Threading model = Apartment
+        CLSID = {0E59F1D5-1FBE-11D0-8FF2-00A0D10038BC}
+        VB6 KB 828629 remediation:
+          miscStatusIcon = 
+                  "recomposeonresize,
+                  onlyiconic,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  invisibleatruntime,
+                  setclientsitefirst"
+
+  VBScript_RegExp_55
+    Description = Microsoft VBScript Regular Expressions 5.5
+    File location = C:\Windows\SysWOW64\vbscript.dll\3
+    Typlib ID = {3F4DACA7-160D-11D2-A8E9-00104B365C9F}
+    Version = 5.5
+    Flags = *none*
+    *Excluded*
+
+  Shell32
+    Description = Microsoft Shell Controls And Automation
+    File location = C:\Windows\syswow64\SHELL32.dll
+    Typlib ID = {50A7E9B0-70EF-11D1-B75A-00A0C90564FE}
+    Version = 1.0
+    Flags = *none*
+    *Excluded*
+
+  SSubTimer6
+    Description = vbAccelerator VB6 Subclassing and Timer Assistant (with configurable message response, multi-control support + timer bug fix)
+    File location = C:\Program Files (x86)\BASeCamp\BCSearch\DLL\SSubTmr6.dll
+    Typlib ID = {71A2702D-C7D8-11D2-BEF8-525400DFB47A}
+    Version = 1.1
+    Flags = *none*
+
+    CoClasses: 3
+
+      GSubclass
+        Description = 
+        ProgID = SSubTimer6.GSubclass
+        Threading model = Apartment
+        CLSID = {71A27032-C7D8-11D2-BEF8-525400DFB47A}
+
+      ISubclass
+        Description = 
+        ProgID = SSubTimer6.ISubclass
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {71A2702F-C7D8-11D2-BEF8-525400DFB47A}
+
+      CTimer
+        Description = 
+        ProgID = SSubTimer6.CTimer
+        Threading model = Apartment
+        CLSID = {71A27034-C7D8-11D2-BEF8-525400DFB47A}
+
+  ADODB
+    Description = Microsoft ActiveX Data Objects 2.8 Library
+    File location = C:\Program Files (x86)\Common Files\System\ado\msado28.tlb
+    Typlib ID = {2A75196C-D9EB-4129-B803-931327F72D5C}
+    Version = 2.8
+    Flags = *none*
+    *Excluded*
+
+  ADOX
+    Description = Microsoft ADO Ext. 6.0 for DDL and Security
+    File location = C:\Program Files (x86)\Common Files\System\ado\msadox.dll
+    Typlib ID = {00000600-0000-0010-8000-00AA006D2EA4}
+    Version = 6.0
+    Flags = *none*
+
+    CoClasses: 7
+
+      Table
+        Description = 
+        ProgID = ADOX.Table.6.0
+        Threading model = Apartment
+        CLSID = {00000609-0000-0010-8000-00AA006D2EA4}
+
+      Column
+        Description = 
+        ProgID = ADOX.Column.6.0
+        Threading model = Apartment
+        CLSID = {0000061B-0000-0010-8000-00AA006D2EA4}
+
+      Index
+        Description = 
+        ProgID = ADOX.Index.6.0
+        Threading model = Apartment
+        CLSID = {0000061E-0000-0010-8000-00AA006D2EA4}
+
+      Key
+        Description = 
+        ProgID = ADOX.Key.6.0
+        Threading model = Apartment
+        CLSID = {00000621-0000-0010-8000-00AA006D2EA4}
+
+      Group
+        Description = 
+        ProgID = ADOX.Group.6.0
+        Threading model = Apartment
+        CLSID = {00000615-0000-0010-8000-00AA006D2EA4}
+
+      User
+        Description = 
+        ProgID = ADOX.User.6.0
+        Threading model = Apartment
+        CLSID = {00000618-0000-0010-8000-00AA006D2EA4}
+
+      Catalog
+        Description = 
+        ProgID = ADOX.Catalog.6.0
+        Threading model = Apartment
+        CLSID = {00000602-0000-0010-8000-00AA006D2EA4}
+
+  PopupMenu6
+    Description = vbAccelerator VB6 Popup Menu DLL.  Create unlimited new pop-up menus.
+    File location = C:\Program Files (x86)\BASeCamp\BCSearch\DLL\cNewMenu6.dll
+    Typlib ID = {C84395DD-A841-11D4-B06C-00500427A693}
+    Version = 1.7
+    Flags = *none*
+
+    CoClasses: 2
+
+      cPopupMenu
+        Description = 
+        ProgID = PopupMenu6.cPopupMenu
+        Threading model = *null*, no ThreadingModel entry will be made in manifest.
+        CLSID = {C84395F7-A841-11D4-B06C-00500427A693}
+
+      pcMouse
+        Description = 
+        ProgID = PopupMenu6.pcMouse
+        Threading model = *null*, no ThreadingModel entry will be made in manifest.
+        CLSID = {031DE498-DF4C-461C-926E-0B1C78F408AD}
+
+  MSComctlLib
+    Description = Microsoft Windows Common Controls 6.0 (SP6)
+    File location = D:\vbproj\makemymanifest\DEPS\MSCOMCTL.OCX
+    Typlib ID = {831FDD16-0C5C-11D2-A9FC-0000F8754DA1}
+    Version = 2.0
+    Flags = control
+
+    CoClasses: 32
+
+      DataObject
+        Description = 
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {2334D2B2-713E-11CF-8AE5-00AA00C00905}
+
+      DataObjectFiles
+        Description = 
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {2334D2B4-713E-11CF-8AE5-00AA00C00905}
+
+      TabStrip
+        Description = Microsoft TabStrip Control
+        ProgID = MSComctlLib.TabStrip.2
+        Threading model = Apartment
+        CLSID = {1EFB6596-857C-11D1-B16A-00C0F0283628}
+        VB6 KB 828629 remediation:
+          miscStatusDocPrint = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  setclientsitefirst"
+
+      Tabs
+        Description = Returns a reference to a collection of Tab objects in the TabStrip control.
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {1EFB6598-857C-11D1-B16A-00C0F0283628}
+
+      Tab
+        Description = Returns a reference to a collection of Tab objects in the TabStrip control.
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {1EFB659A-857C-11D1-B16A-00C0F0283628}
+
+      Toolbar
+        Description = Microsoft Toolbar Control
+        ProgID = MSComctlLib.Toolbar.2
+        Threading model = Apartment
+        CLSID = {66833FE6-8583-11D1-B16A-00C0F0283628}
+        VB6 KB 828629 remediation:
+          miscStatusDocPrint = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  actslikelabel,
+                  alignable,
+                  simpleframe,
+                  setclientsitefirst"
+
+      Buttons
+        Description = ToolBar Buttons
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {66833FE8-8583-11D1-B16A-00C0F0283628}
+
+      Button
+        Description = ToolBar Button
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {66833FEA-8583-11D1-B16A-00C0F0283628}
+
+      ButtonMenus
+        Description = ToolBar ButtonMenus
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {66833FEC-8583-11D1-B16A-00C0F0283628}
+
+      ButtonMenu
+        Description = ToolBar ButtonMenu
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {66833FEE-8583-11D1-B16A-00C0F0283628}
+
+      StatusBar
+        Description = Microsoft StatusBar Control
+        ProgID = MSComctlLib.SBarCtrl.2
+        Threading model = Apartment
+        CLSID = {8E3867A3-8586-11D1-B16A-00C0F0283628}
+        VB6 KB 828629 remediation:
+          miscStatusDocPrint = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  actslikelabel,
+                  alignable,
+                  setclientsitefirst"
+
+      Panels
+        Description = StatusBar Panels collection
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {8E3867A5-8586-11D1-B16A-00C0F0283628}
+
+      Panel
+        Description = StatusBar Panel
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {8E3867AB-8586-11D1-B16A-00C0F0283628}
+
+      ProgressBar
+        Description = Microsoft ProgressBar Control
+        ProgID = MSComctlLib.ProgCtrl.2
+        Threading model = Apartment
+        CLSID = {35053A22-8589-11D1-B16A-00C0F0283628}
+        VB6 KB 828629 remediation:
+          miscStatusDocPrint = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  actslikelabel,
+                  alignable,
+                  setclientsitefirst"
+
+      TreeView
+        Description = Displays a hierarchical list of Node objects, each of which consists of a label and an optional bitmap.
+        ProgID = MSComctlLib.TreeCtrl.2
+        Threading model = Apartment
+        CLSID = {C74190B6-8589-11D1-B16A-00C0F0283628}
+        VB6 KB 828629 remediation:
+          miscStatusDocPrint = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  setclientsitefirst"
+
+      Nodes
+        Description = Treeview Nodes collection
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {0713E8C0-850A-101B-AFC0-4210102A8DA7}
+
+      Node
+        Description = An object in a TreeView control that can contain images and text.
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {C74190B9-8589-11D1-B16A-00C0F0283628}
+
+      ListView
+        Description = Displays a collection of ListItems such as files or folders.
+        ProgID = MSComctlLib.ListViewCtrl.2
+        Threading model = Apartment
+        CLSID = {BDD1F04B-858B-11D1-B16A-00C0F0283628}
+        VB6 KB 828629 remediation:
+          miscStatusDocPrint = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  setclientsitefirst"
+
+      ListItems
+        Description = ListView Item collection
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {BDD1F04D-858B-11D1-B16A-00C0F0283628}
+
+      ListItem
+        Description = An item in a ListView control that contains the index of icons associated with it, text, and an array of strings representing subitems that are displayed in Report view.
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {BDD1F04F-858B-11D1-B16A-00C0F0283628}
+
+      ColumnHeaders
+        Description = ListView Column Header collection
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {0713E8C6-850A-101B-AFC0-4210102A8DA7}
+
+      ColumnHeader
+        Description = ListView Column Header
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {BDD1F052-858B-11D1-B16A-00C0F0283628}
+
+      ListSubItems
+        Description = ListView SubItem collection
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {BDD1F054-858B-11D1-B16A-00C0F0283628}
+
+      ListSubItem
+        Description = ListView SubItem object
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {BDD1F056-858B-11D1-B16A-00C0F0283628}
+
+      ImageList
+        Description = Contains a collection of ListImage objects, each of which can be referred to by its index or key
+        ProgID = MSComctlLib.ImageListCtrl.2
+        Threading model = Apartment
+        CLSID = {2C247F23-8591-11D1-B16A-00C0F0283628}
+        VB6 KB 828629 remediation:
+          miscStatusDocPrint = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  invisibleatruntime,
+                  alignable,
+                  setclientsitefirst"
+
+      ListImages
+        Description = A bitmap or icon of any size that can be used in other controls.
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {2C247F25-8591-11D1-B16A-00C0F0283628}
+
+      ListImage
+        Description = A bitmap or icon of any size that can be used in other controls.
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {2C247F27-8591-11D1-B16A-00C0F0283628}
+
+      Slider
+        Description = A calibrated control with a slider for setting or selecting values.
+        ProgID = MSComctlLib.Slider.2
+        Threading model = Apartment
+        CLSID = {F08DF954-8592-11D1-B16A-00C0F0283628}
+        VB6 KB 828629 remediation:
+          miscStatusDocPrint = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  setclientsitefirst"
+
+      Controls
+        Description = Controls collection
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {C8A3DC01-8593-11D1-B16A-00C0F0283628}
+
+      ComboItem
+        Description = An object that represents an entry in the listbox portion of the combobox control.
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {DD9DA661-8594-11D1-B16A-00C0F0283628}
+
+      ComboItems
+        Description = The ComboItems Collection.
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {DD9DA663-8594-11D1-B16A-00C0F0283628}
+
+      ImageCombo
+        Description = Microsoft ImageComboBox Control
+        ProgID = MSComctlLib.ImageComboCtl.2
+        Threading model = Apartment
+        CLSID = {DD9DA666-8594-11D1-B16A-00C0F0283628}
+        VB6 KB 828629 remediation:
+          miscStatusDocPrint = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  setclientsitefirst"
+
+MMM project settings:
+  Embed manifest in EXE = False
+  Save MMM log to disk = True
+  Common Controls 6.0 manifest node = True
+  VB 6.0 ActiveX control KB 828629 remediation = True
+  DPI Aware manifest node = False
+  Compatibility manifest node = False
+  TrustInfo manifest node = True
+    Execution level = requireAdministrator
+    UI Access = False
+
+Creating deploybcfile package folder:
+    D:\VBPROJ\VB\BCFile\deploybcfile
+
+Copying dependencies:
+  C:\Windows\SysWOW64\msscript.ocx to deploybcfile\dep
+  C:\Program Files (x86)\BASeCamp\BCSearch\DLL\SSubTmr6.dll to deploybcfile\dep
+  C:\Program Files (x86)\Common Files\System\ado\msadox.dll to deploybcfile\dep
+  C:\Program Files (x86)\BASeCamp\BCSearch\DLL\cNewMenu6.dll to deploybcfile\dep
+  D:\vbproj\makemymanifest\DEPS\MSCOMCTL.OCX to deploybcfile\dep
+
+Copying EXE:
+  D:\VBPROJ\VB\BCFile\Search\Distrib\release\BCFile.dll to deploybcfile
+
+Writing application manifest:
+  BCFile.dll.manifest to deploybcfile
+
+Writing MMM package project file:
+  D:\VBPROJ\VB\BCFile\deploybcfile.mmmp
+
+Complete!
+

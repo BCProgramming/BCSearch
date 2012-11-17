@@ -1,0 +1,10 @@
+Devlog for BASeSearch Application.
+
+
+Created July 14th, 2009
+
+
+Just wanted to record: I needed to change the VBAccelerator Listview ImageList Property Code, so that I could use a system imagelist. I simply changed one Procedure from accepting a Object to accepting a Long value...
+
+I added Tags to a few other objects, too. And Of course changed the library name to VBABClListView6 or something.
+

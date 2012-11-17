@@ -1,0 +1,20 @@
+[BCSearch]
+Theme=Default
+[Appearance.Default]
+CommandBarStyle=3 ;Comctl32
+FilesListViewGridLines=True
+[WindowPositions]
+FrmSearch.Left=180
+FrmSearch.Top=180
+FrmSearch.Width=6000
+FrmSearch.Height=6200
+FrmSearchSpec.Left=80
+FrmSearchSpec.Top=80
+FrmSearchSpec.Width=7695
+FrmSearchSpec.Height=6690
+FrmDateEdit.Left=80
+FrmDateEdit.Top=80
+FrmDateEdit.Width=4290
+FrmDateEdit.Height=6420
+[Column Plugins]
+BASeSearch.CAlternateStreamColumns=1

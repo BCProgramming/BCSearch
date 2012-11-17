@@ -1,0 +1,423 @@
+BASeCamp CDebug Class Debug Log output.
+log at 12/29/2009 on TERATRON as BC_Programming at 12:33.12
+################################################################################
+System Info for this session:
+Environment variables:
+
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\BC_Programming\AppData\Roaming
+CG_BOOST_ROOT=C:\Program Files (x86)\CodeGear\RAD Studio\6.0\include\boost_1_35
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=TERATRON
+ComSpec=C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK=NO
+HOMEDRIVE=C:
+HOMEPATH=\Users\BC_Programming
+LOCALAPPDATA=C:\Users\BC_Programming\AppData\Local
+LOGONSERVER=\\TERATRON
+NUMBER_OF_PROCESSORS=4
+OPENSSL_CONF=C:\OpenSSL\bin\openssl.cfg
+OS=Windows_NT
+Path=C:\Python\Scripts;C:\Python\;C:\Program Files (x86)\CodeGear\RAD Studio\6.0\bin;C:\Users\Public\Documents\RAD Studio\6.0\Bpl;C:\Perl\site\bin;C:\Perl\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin;C:\Program Files (x86)\Common Files\microsoft shared\MSENV;C:\Program Files (x86)\Common Files\microsoft shared\VSA\9.0\VsaEnv;C:\PROGRA~2\Borland\Delphi6\Bin;C:\PROGRA~2\Borland\Delphi6\Projects\Bpl;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files (x86)\backburner 2\;C:\Users\BC_Programming\AppData\Roaming\Python\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin;C:\Program Files (x86)\Common Files\microsoft shared\MSENV;C:\Program Files (x86)\Common Fi
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.py;.pyw
+PROCESSOR_ARCHITECTURE=x86
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 23 Stepping 7, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=1707
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files (x86)
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PUBLIC=C:\Users\Public
+SystemDrive=C:
+SystemRoot=C:\Windows
+TEMP=C:\Users\BC_PRO~1\AppData\Local\Temp
+TMP=C:\Users\BC_PRO~1\AppData\Local\Temp
+USERDOMAIN=TERATRON
+USERNAME=BC_Programming
+USERPROFILE=C:\Users\BC_Programming
+VS90COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\Tools\
+windir=C:\Windows
+__COMPAT_LAYER=RunAsAdmin RunAsAdmin 
+
+
+################################################################################
+***************BEGIN LOG*******************
+After:hwnd=3146426 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=3146426 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=3146426 umsg=70
+WINDOWPOSCHANGING
+XML load successful in CXMLLoader::LoadXML
+optimal bitdepth is 32 bits.
+unrecognized NodeName for commandbar load:SCRIPTS
+unrecognized NodeName for commandbar load:
+unrecognized NodeName for commandbar load:IMAGELIST
+unrecognized NodeName for commandbar load:IMAGELIST
+DefClick=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=8
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=13
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=15
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=14
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=16
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=13
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=17
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=11
+HandleControlEvent, Resize
+DefClick=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=18
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=20
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+DefClick=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=5
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=6
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+DefClick=
+Click=
+picindex=2
+Click=
+picindex=-1
+Click=
+picindex=-1
+DefClick=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=11
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=12
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=10
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=9
+HandleControlEvent, Resize
+unrecognized NodeName for commandbar load:TOOLBAR
+setting toolbarimagelist(1)...
+setting toolbarimagelist(2)...
+After:hwnd=3146426 umsg=36
+After:hwnd=3146426 umsg=70
+WINDOWPOSCHANGING
+HandleControlEvent, Resize
+HandleControlEvent, Resize
+After:hwnd=3146426 umsg=36
+After:hwnd=3146426 umsg=70
+WINDOWPOSCHANGING
+Loading Combo/List box- section = PersistProperties.cboLookin...
+not duplicating List item.
+1
+Loading Combo/List box- section = PersistProperties.cboFilter...
+After:hwnd=3146426 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=3146426 umsg=70
+WINDOWPOSCHANGING
+
+not duplicating List item.
+Change
+Change
+Change
+Change
+Change
+Change
+Change
+Change
+0
+0
+Change
+Change
+Change
+Change
+Change
+Change
+Change
+Change
+0
+0
+Persisting Combo/List box- section = PersistProperties.cboSizesuffix.1...
+Persisting Combo/List box- section = PersistProperties.cboSizesuffix.0...
+Persisting Combo/List box- section = PersistProperties.cboOperation...
+Persisting Combo/List box- section = PersistProperties.cboFilter...
+Persisting Combo/List box- section = PersistProperties.cboADSThanMultiplier.1...
+Persisting Combo/List box- section = PersistProperties.cboADSThanMultiplier.0...
+After:hwnd=3146426 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=3146426 umsg=70
+WINDOWPOSCHANGING
+optimal bitdepth is 32 bits.
+HandleControlEvent, Resize
+mouseup button=0,shift=0,x=137,y=8
+D:\%desktop%.txt
+mouseup button=0,shift=0,x=137,y=8
+D:\%desktop%.txt
+mouseup button=0,shift=0,x=137,y=8
+D:\%desktop%.txt
+mouseup button=0,shift=0,x=137,y=8
+D:\%desktop%.txt
+mouseup button=0,shift=0,x=137,y=8
+D:\%desktop%.txt
+mouseup button=0,shift=0,x=137,y=8
+D:\%desktop%.txt
+mouseup button=0,shift=0,x=137,y=8
+D:\%desktop%.txt
+mouseup button=0,shift=0,x=137,y=8
+D:\%desktop%.txt
+mouseup button=0,shift=0,x=137,y=8
+D:\%desktop%.txt
+mouseup button=0,shift=0,x=137,y=8
+D:\%desktop%.txt
+mouseup button=0,shift=0,x=137,y=8
+D:\%desktop%.txt
+mousemove button=2,shift=0,x=132,y=24
+mousemove button=0,shift=0,x=132,y=30
+mousemove button=0,shift=0,x=131,y=33
+mousemove button=0,shift=0,x=130,y=37
+mousemove button=0,shift=0,x=128,y=44
+mousemove button=0,shift=0,x=127,y=51
+mousemove button=0,shift=0,x=125,y=60
+mousemove button=0,shift=0,x=121,y=81
+mousemove button=0,shift=0,x=118,y=99
+mousemove button=0,shift=0,x=118,y=102
+mousemove button=0,shift=0,x=117,y=107
+mousemove button=0,shift=0,x=117,y=109
+mousemove button=0,shift=0,x=117,y=112
+mousemove button=0,shift=0,x=117,y=116
+mousemove button=0,shift=0,x=116,y=128
+mousemove button=0,shift=0,x=115,y=130
+mousemove button=0,shift=0,x=115,y=134
+mousemove button=0,shift=0,x=114,y=138
+mousemove button=0,shift=0,x=113,y=141
+mousemove button=0,shift=0,x=112,y=144
+mousemove button=0,shift=0,x=112,y=146
+mousemove button=0,shift=0,x=111,y=148
+mousemove button=0,shift=0,x=109,y=151
+mousemove button=0,shift=0,x=107,y=158
+mousemove button=0,shift=0,x=105,y=160
+mousemove button=0,shift=0,x=102,y=166
+mousemove button=0,shift=0,x=100,y=168
+mousemove button=0,shift=0,x=99,y=169
+mousemove button=0,shift=0,x=97,y=171
+mousemove button=0,shift=0,x=97,y=172
+mousemove button=0,shift=0,x=95,y=174
+mousemove button=0,shift=0,x=94,y=174
+mousemove button=0,shift=0,x=93,y=175
+mouseup button=2,shift=0,x=93,y=175
+D:\findlocale.txt
+before show menu 1130960361
+Count of items is 18
+ret=1
+after show menu ID=0
+mouseup button=2,shift=0,x=58,y=11
+D:\%desktop%.txt
+setting menuimagelist to 171078432
+New Control Instance Obtained:3478896
+HandleControlEvent, RequestNewInstance
+BEFORESHOWMENU:VIEW::SUBMENU
+beforeShowMenu end VIEW::SUBMENU
+HandleControlEvent, BeforeShowMenu
+beforeshowmenu:VIEW::SUBMENU
+playing:C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\SHOWMENU.WAV
+HandleControlEvent, Resize
+HandleControlEvent, Resize
+HandleControlEvent, AfterShowMenu
+mouseup button=2,shift=0,x=178,y=15
+D:\%desktop%.txt
+BEFORESHOWMENU:VIEW::SUBMENU
+beforeShowMenu end VIEW::SUBMENU
+HandleControlEvent, BeforeShowMenu
+beforeshowmenu:VIEW::SUBMENU
+playing:C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\SHOWMENU.WAV
+HandleControlEvent, ButtonHighlight
+HandleControlEvent, AfterShowMenu
+mousemove button=1,shift=0,x=146,y=31
+mousemove button=2,shift=0,x=137,y=36
+mousemove button=0,shift=0,x=129,y=43
+mousemove button=0,shift=0,x=119,y=52
+mousemove button=0,shift=0,x=111,y=58
+mousemove button=0,shift=0,x=104,y=64
+mousemove button=0,shift=0,x=96,y=72
+mousemove button=0,shift=0,x=93,y=77
+mousemove button=0,shift=0,x=89,y=80
+mousemove button=0,shift=0,x=86,y=84
+mousemove button=0,shift=0,x=86,y=85
+mousemove button=0,shift=0,x=84,y=89
+mousemove button=0,shift=0,x=82,y=93
+mousemove button=0,shift=0,x=82,y=94
+mousemove button=0,shift=0,x=82,y=97
+mousemove button=0,shift=0,x=81,y=99
+mousemove button=0,shift=0,x=80,y=103
+mousemove button=0,shift=0,x=79,y=106
+mousemove button=0,shift=0,x=78,y=109
+mousemove button=0,shift=0,x=78,y=113
+mousemove button=0,shift=0,x=77,y=116
+mousemove button=0,shift=0,x=77,y=117
+mousemove button=0,shift=0,x=77,y=121
+mousemove button=0,shift=0,x=77,y=122
+mousemove button=0,shift=0,x=76,y=133
+mousemove button=0,shift=0,x=76,y=139
+mousemove button=0,shift=0,x=75,y=142
+mousemove button=0,shift=0,x=75,y=143
+mousemove button=0,shift=0,x=75,y=144
+mouseup button=1,shift=0,x=75,y=144
+D:\file.txt
+mousemove button=1,shift=0,x=75,y=144
+mousemove button=0,shift=0,x=75,y=143
+mousemove button=0,shift=0,x=80,y=138
+mousemove button=0,shift=0,x=82,y=137
+mousemove button=0,shift=0,x=92,y=129
+mousemove button=0,shift=0,x=97,y=125
+mousemove button=0,shift=0,x=103,y=121
+mousemove button=0,shift=0,x=117,y=108
+mousemove button=0,shift=0,x=120,y=105
+mousemove button=0,shift=0,x=124,y=101
+mousemove button=0,shift=0,x=128,y=96
+mousemove button=0,shift=0,x=132,y=93
+mousemove button=0,shift=0,x=136,y=86
+mousemove button=0,shift=0,x=140,y=80
+mousemove button=0,shift=0,x=144,y=74
+mousemove button=0,shift=0,x=147,y=71
+mousemove button=0,shift=0,x=151,y=64
+mousemove button=0,shift=0,x=161,y=48
+mousemove button=0,shift=0,x=165,y=44
+mousemove button=0,shift=0,x=165,y=44
+mousemove button=0,shift=0,x=168,y=40
+mousemove button=0,shift=0,x=170,y=37
+mousemove button=0,shift=0,x=172,y=34
+mousemove button=0,shift=0,x=174,y=32
+mousemove button=0,shift=0,x=176,y=30
+mousemove button=0,shift=0,x=176,y=29
+mousemove button=0,shift=0,x=178,y=26
+mousemove button=0,shift=0,x=179,y=24
+mouseup button=1,shift=0,x=187,y=12
+D:\%desktop%.txt
+mouseup button=1,shift=0,x=125,y=11
+D:\%desktop%.txt
+mouseup button=1,shift=0,x=172,y=12
+D:\%desktop%.txt
+mousemove button=2,shift=0,x=167,y=27
+mousemove button=0,shift=0,x=166,y=30
+mousemove button=0,shift=0,x=165,y=35
+mousemove button=0,shift=0,x=165,y=39
+mousemove button=0,shift=0,x=164,y=43
+mousemove button=0,shift=0,x=163,y=49
+mousemove button=0,shift=0,x=162,y=55
+mousemove button=0,shift=0,x=161,y=69
+mousemove button=0,shift=0,x=160,y=76
+mousemove button=0,shift=0,x=158,y=83
+mousemove button=0,shift=0,x=157,y=90
+mousemove button=0,shift=0,x=155,y=97
+mousemove button=0,shift=0,x=154,y=103
+mousemove button=0,shift=0,x=152,y=108
+mousemove button=0,shift=0,x=151,y=115
+mousemove button=0,shift=0,x=149,y=121
+mousemove button=0,shift=0,x=147,y=138
+mousemove button=0,shift=0,x=146,y=140
+mousemove button=0,shift=0,x=144,y=147
+mousemove button=0,shift=0,x=142,y=157
+mousemove button=0,shift=0,x=142,y=160
+mousemove button=0,shift=0,x=141,y=164
+mousemove button=0,shift=0,x=141,y=167
+mousemove button=0,shift=0,x=140,y=168
+mousemove button=0,shift=0,x=140,y=171
+mousemove button=0,shift=0,x=140,y=173
+mousemove button=0,shift=0,x=140,y=175
+mousemove button=0,shift=0,x=138,y=178
+mousemove button=0,shift=0,x=136,y=184
+mousemove button=0,shift=0,x=135,y=186
+mousemove button=0,shift=0,x=134,y=189
+mousemove button=0,shift=0,x=130,y=195
+mousemove button=0,shift=0,x=128,y=197
+mousemove button=0,shift=0,x=125,y=201
+mousemove button=0,shift=0,x=121,y=203
+mousemove button=0,shift=0,x=117,y=207
+mousemove button=0,shift=0,x=111,y=209
+mousemove button=0,shift=0,x=104,y=211
+mousemove button=0,shift=0,x=97,y=212
+mousemove button=0,shift=0,x=82,y=212
+mousemove button=0,shift=0,x=70,y=210
+mousemove button=0,shift=0,x=61,y=210
+mousemove button=0,shift=0,x=54,y=209
+mousemove button=0,shift=0,x=27,y=204
+mousemove button=0,shift=0,x=15,y=200
+mousemove button=0,shift=0,x=3,y=197
+After:hwnd=3146426 umsg=70
+WINDOWPOSCHANGING
+buttondropdown FILE;MENU::FILE
+HandleControlEvent, ButtonDropDown
+BEFORESHOWMENU:FILE::SUBMENU
+File::SUBMENU
+beforeShowMenu end FILE::SUBMENU
+HandleControlEvent, BeforeShowMenu
+beforeshowmenu:FILE::SUBMENU
+playing:C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\SHOWMENU.WAV
+HandleControlEvent, Resize
+HandleControlEvent, Resize
+HandleControlEvent, ButtonHighlight
+HandleControlEvent, ButtonHighlight
+HandleControlEvent, ButtonHighlight
+HandleControlEvent, ButtonHighlight
+HandleControlEvent, ButtonHighlight
+HandleControlEvent, AfterShowMenu
+Clicked: caption=&Exit key=FILE::EXIT TAG=FILE::EXIT
+ButtonClick
+Persisting Combo/List box- section = PersistProperties.cboLookin...
+After:hwnd=3146426 umsg=70
+WINDOWPOSCHANGING

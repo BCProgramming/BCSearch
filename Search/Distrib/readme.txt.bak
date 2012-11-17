@@ -1,0 +1,111 @@
+BASeCamp "Search" Alpha Release
+
+I have finally got the search program in a state that deserves a release.
+
+
+Note that it is still an alpha, and a few bugs may crop up(let me know).
+
+I'm open to suggestions, of course- especially regarding the UI- you know where to find me...
+
+
+
+ also I haven't made an installer, which will definitely be a plus; avoid all this regsvr32 hassle...
+
+
+Installation:
+As you can see by looking in the Zip, the search program uses a good number of accessory COM components. A few of these are harvested from VBAccelerator.com, a very fine resource for VB6
+programming techniques and activeX components.
+
+Before you proceed- a warning- since I have not included a uninstallation utility, if you register the components and later delete them, there will be orphaned keys in the registry. CCleaner's registry cleaning component will remove these orphaned entries, which only would be a problem if you
+were to try and run another program using the now orphaned components.
+
+
+*Prerequisite installs*
+
+This program was written in Visual basic, and thus requires the Visual Basic run-times. It was written in VB6, and so requires
+the VB6 runtimes, found here:
+
+http://support.microsoft.com/kb/192461/EN-US
+
+
+Also my experimentation via my laptop reveals that our friends at VBAccelerator were using routines in the VB5 run-times. This one will likely be more important- Vista, for example, 
+does not include the VB5 run-times.
+
+the VB5 runtimes can be found here:
+
+http://support.microsoft.com/kb/180071
+
+Note that It might be that I downloaded the wrong version of the CommandBar control. a Possible fix would be to register a version that doesn't require MSVBVM50.dll- If that file is anywhere it
+would be somewhere on www.vbaccelerator.com.
+
+
+Installation is easy with XP-
+
+copy all files to desired folder
+run regall.bat
+run searcher.exe
+
+Vista, on the other hand, is more involved.
+
+Copy all files to desired folder
+Run a command prompt as Administrator
+navigate to install folder via command prompt
+run regall.bat
+
+*NOTE: running regall.bat from explorer (IE: run as administrator context menu) does not work- it starts regall in C:\windows\system32... meaning you get all your system files registered again.
+
+finally- run searcher.exe I don't know why but the VB runtime appears to crash if the program isn't run as administrator.
+
+
+EDIT: I just checked at it appears that the only portion requiring admin priviledges is the registration of the components. This makes sense...
+
+SEARCHER ran just fine on my Vista laptop as a limited user after I registered the ocx and dll files as a admin.
+
+
+I hope this works for everybody. The necessity to run it with admin priviledges is likely the biggest hurdle; I'm not sure why it requires it, either.
+
+
+USAGE:
+
+hopefully, most of the controls are fairly self-explanatory. However, I will explain the idiom I've used for "filters".
+
+a "Filter" is merely a set of specifications for a file. IE, size, date, filespec, etc. In the top listview presented in the main window is the list of active filters.
+In this Alpha release the only operation supported on filters is Adding and editing; the "New Search" button, however, will clear all filters and so can be used for experimentation.
+
+To Add a filter, Click the "Add" button, to the left of the Filters Listview. The Filter is created and an editing window is opened for it.
+
+
+On this page, take note that options not filled out are not taken into account during the search operation.
+
+
+
+Filter(s)
+
+Specifies the filters to use. note that the semicolon ";" can be used to separate multiple file specifications. the filter will pass if the file matches any of these specifications.
+
+
+Attributes:
+
+place a check in any box whose attribute you wish to be part of the search results. By default, specifying, for example, "Hidden" will find files that have the Hidden attribute set, which could include "system" files. For an
+exact match to a set of specifications, place a check in the "Match attributes exactly" checkbox.
+
+Size:
+
+Fairly Straightforward; note that if 0 is specified in either box that box will be ignored- for example, by setting the "smaller than" value to 0 and the larger than value to "2 KB", one could search for any file larger then 2KB.
+
+Dates:
+
+This small box will show the current set of Date filters in effect. by default, any date is accepted. To change the date filters for this filter, click the "Change" button below the box. This will show a "sub-dialog" for editing the date specifications of that filter.
+
+
+*NOTE*
+
+right now the "advanced" tab is empty... and in fact makes it so that you cannot go back to the "Standard" tab properly. If this occurs to you, simply click Cancel or OK to close the editing dialog, and then right-click on the item and edit it again.
+
+
+
+
+
+
+
+

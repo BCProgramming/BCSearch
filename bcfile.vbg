@@ -1,0 +1,4 @@
+VBGROUP 5.0
+Project=BCFile.vbp
+StartupProject=Search\Search.vbp
+Project=Unittesting\bcfUnitTest.vbp

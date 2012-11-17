@@ -1,0 +1,1287 @@
+BASeCamp CDebug Class Debug Log output.
+log at 12/29/2009 on TERATRON as BC_Programming at 12:12.59
+################################################################################
+System Info for this session:
+Environment variables:
+
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\BC_Programming\AppData\Roaming
+CG_BOOST_ROOT=C:\Program Files (x86)\CodeGear\RAD Studio\6.0\include\boost_1_35
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=TERATRON
+ComSpec=C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK=NO
+HOMEDRIVE=C:
+HOMEPATH=\Users\BC_Programming
+LOCALAPPDATA=C:\Users\BC_Programming\AppData\Local
+LOGONSERVER=\\TERATRON
+NUMBER_OF_PROCESSORS=4
+OPENSSL_CONF=C:\OpenSSL\bin\openssl.cfg
+OS=Windows_NT
+Path=C:\Python\Scripts;C:\Python\;C:\Program Files (x86)\CodeGear\RAD Studio\6.0\bin;C:\Users\Public\Documents\RAD Studio\6.0\Bpl;C:\Perl\site\bin;C:\Perl\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin;C:\Program Files (x86)\Common Files\microsoft shared\MSENV;C:\Program Files (x86)\Common Files\microsoft shared\VSA\9.0\VsaEnv;C:\PROGRA~2\Borland\Delphi6\Bin;C:\PROGRA~2\Borland\Delphi6\Projects\Bpl;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files (x86)\backburner 2\;C:\Users\BC_Programming\AppData\Roaming\Python\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin;C:\Program Files (x86)\Common Files\microsoft shared\MSENV;C:\Program Files (x86)\Common Fi
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.py;.pyw
+PROCESSOR_ARCHITECTURE=x86
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 23 Stepping 7, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=1707
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files (x86)
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PUBLIC=C:\Users\Public
+SystemDrive=C:
+SystemRoot=C:\Windows
+TEMP=C:\Users\BC_PRO~1\AppData\Local\Temp
+TMP=C:\Users\BC_PRO~1\AppData\Local\Temp
+USERDOMAIN=TERATRON
+USERNAME=BC_Programming
+USERPROFILE=C:\Users\BC_Programming
+VS90COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\Tools\
+windir=C:\Windows
+__COMPAT_LAYER=RunAsAdmin RunAsAdmin 
+
+
+################################################################################
+***************BEGIN LOG*******************
+After:hwnd=788942 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=788942 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=788942 umsg=70
+WINDOWPOSCHANGING
+XML load successful in CXMLLoader::LoadXML
+optimal bitdepth is 32 bits.
+unrecognized NodeName for commandbar load:SCRIPTS
+unrecognized NodeName for commandbar load:
+unrecognized NodeName for commandbar load:IMAGELIST
+unrecognized NodeName for commandbar load:IMAGELIST
+DefClick=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=8
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=13
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=15
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=14
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=16
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=13
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=17
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=11
+HandleControlEvent, Resize
+DefClick=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=18
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=20
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+DefClick=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=5
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=6
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+DefClick=
+Click=
+picindex=2
+Click=
+picindex=-1
+Click=
+picindex=-1
+DefClick=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=11
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=12
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=10
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=9
+HandleControlEvent, Resize
+unrecognized NodeName for commandbar load:TOOLBAR
+setting toolbarimagelist(1)...
+setting toolbarimagelist(2)...
+After:hwnd=788942 umsg=36
+After:hwnd=788942 umsg=70
+WINDOWPOSCHANGING
+HandleControlEvent, Resize
+HandleControlEvent, Resize
+After:hwnd=788942 umsg=36
+After:hwnd=788942 umsg=70
+WINDOWPOSCHANGING
+Loading Combo/List box- section = PersistProperties.cboLookin...
+not duplicating List item.
+1
+Loading Combo/List box- section = PersistProperties.cboFilter...
+After:hwnd=788942 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=788942 umsg=70
+WINDOWPOSCHANGING
+
+not duplicating List item.
+Change
+Change
+Change
+Change
+Change
+Change
+Change
+Change
+0
+0
+Change
+Change
+Change
+Change
+Change
+Change
+Change
+Change
+0
+0
+Persisting Combo/List box- section = PersistProperties.cboSizesuffix.1...
+Persisting Combo/List box- section = PersistProperties.cboSizesuffix.0...
+Persisting Combo/List box- section = PersistProperties.cboOperation...
+Persisting Combo/List box- section = PersistProperties.cboFilter...
+Persisting Combo/List box- section = PersistProperties.cboADSThanMultiplier.1...
+Persisting Combo/List box- section = PersistProperties.cboADSThanMultiplier.0...
+After:hwnd=788942 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=788942 umsg=70
+WINDOWPOSCHANGING
+mousemove button=1,shift=0,x=549,y=128
+mousemove button=0,shift=0,x=529,y=113
+mousemove button=0,shift=0,x=498,y=85
+mousemove button=0,shift=0,x=468,y=60
+mousemove button=0,shift=0,x=432,y=32
+control+Enter pressed.
+optimal bitdepth is 32 bits.
+HandleControlEvent, Resize
+mousemove button=0,shift=0,x=309,y=29
+mousemove button=0,shift=0,x=246,y=57
+mousemove button=0,shift=0,x=233,y=64
+mousemove button=0,shift=0,x=222,y=69
+mousemove button=0,shift=0,x=212,y=75
+mousemove button=0,shift=0,x=202,y=78
+mousemove button=0,shift=0,x=198,y=80
+mousemove button=0,shift=0,x=195,y=80
+mousemove button=0,shift=0,x=193,y=81
+mousemove button=0,shift=0,x=190,y=81
+mousemove button=0,shift=0,x=187,y=81
+mousemove button=0,shift=0,x=184,y=81
+mousemove button=0,shift=0,x=178,y=80
+mousemove button=0,shift=0,x=175,y=80
+mousemove button=0,shift=0,x=173,y=79
+mousemove button=0,shift=0,x=171,y=78
+mousemove button=0,shift=0,x=170,y=78
+mousemove button=0,shift=0,x=169,y=78
+mousemove button=0,shift=0,x=166,y=76
+mousemove button=0,shift=0,x=165,y=76
+mousemove button=0,shift=0,x=164,y=76
+mousemove button=0,shift=0,x=162,y=74
+mousemove button=0,shift=0,x=154,y=71
+mousemove button=0,shift=0,x=151,y=70
+mousemove button=0,shift=0,x=141,y=64
+mousemove button=0,shift=0,x=136,y=62
+mousemove button=0,shift=0,x=133,y=60
+mousemove button=0,shift=0,x=131,y=58
+mousemove button=0,shift=0,x=128,y=57
+mousemove button=0,shift=0,x=127,y=55
+mousemove button=0,shift=0,x=126,y=54
+mousemove button=0,shift=0,x=125,y=49
+mousemove button=0,shift=0,x=124,y=46
+mousemove button=0,shift=0,x=123,y=44
+mousemove button=0,shift=0,x=122,y=43
+mousemove button=0,shift=0,x=122,y=41
+mousemove button=0,shift=0,x=122,y=39
+mousemove button=0,shift=0,x=122,y=38
+mousemove button=0,shift=0,x=121,y=38
+mousemove button=0,shift=0,x=120,y=35
+mousemove button=0,shift=0,x=120,y=34
+mousemove button=0,shift=0,x=118,y=28
+mousemove button=0,shift=0,x=117,y=27
+mousemove button=0,shift=0,x=117,y=26
+mousemove button=0,shift=0,x=115,y=24
+mousemove button=0,shift=0,x=114,y=24
+mousemove button=0,shift=0,x=115,y=26
+mousemove button=0,shift=0,x=115,y=29
+mousemove button=0,shift=0,x=115,y=31
+mousemove button=0,shift=0,x=115,y=33
+mousemove button=0,shift=0,x=116,y=35
+mousemove button=0,shift=0,x=116,y=36
+mousemove button=0,shift=0,x=116,y=38
+mousemove button=0,shift=0,x=116,y=39
+mousemove button=0,shift=0,x=116,y=41
+mousemove button=0,shift=0,x=116,y=44
+mousemove button=0,shift=0,x=116,y=46
+mousemove button=0,shift=0,x=116,y=49
+mousemove button=0,shift=0,x=117,y=57
+mousemove button=0,shift=0,x=118,y=60
+mousemove button=0,shift=0,x=118,y=66
+mousemove button=0,shift=0,x=119,y=71
+mousemove button=0,shift=0,x=124,y=93
+mousemove button=0,shift=0,x=130,y=117
+mousemove button=0,shift=0,x=130,y=117
+mousemove button=0,shift=0,x=132,y=124
+mousemove button=0,shift=0,x=135,y=132
+mousemove button=0,shift=0,x=137,y=141
+mousemove button=0,shift=0,x=138,y=146
+mousemove button=0,shift=0,x=141,y=152
+mousemove button=0,shift=0,x=141,y=159
+mousemove button=0,shift=0,x=144,y=168
+mousemove button=0,shift=0,x=146,y=174
+mousemove button=0,shift=0,x=146,y=179
+mousemove button=0,shift=0,x=148,y=184
+mousemove button=0,shift=0,x=149,y=189
+mousemove button=0,shift=0,x=150,y=191
+mousemove button=0,shift=0,x=152,y=195
+mousemove button=0,shift=0,x=153,y=201
+mousemove button=0,shift=0,x=153,y=205
+mousemove button=0,shift=0,x=155,y=211
+mousemove button=0,shift=0,x=156,y=215
+mousemove button=0,shift=0,x=157,y=221
+mousemove button=0,shift=0,x=162,y=233
+mousemove button=0,shift=0,x=164,y=240
+mousemove button=0,shift=0,x=164,y=243
+mousemove button=0,shift=0,x=166,y=250
+mousemove button=0,shift=0,x=167,y=253
+mousemove button=0,shift=0,x=169,y=262
+mousemove button=0,shift=0,x=170,y=266
+mousemove button=0,shift=0,x=171,y=268
+mousemove button=0,shift=0,x=171,y=269
+mousemove button=0,shift=0,x=172,y=271
+mousemove button=0,shift=0,x=173,y=274
+mousemove button=0,shift=0,x=173,y=275
+mousemove button=0,shift=0,x=173,y=276
+mousemove button=0,shift=0,x=173,y=277
+mousemove button=0,shift=0,x=173,y=277
+mousemove button=0,shift=0,x=173,y=276
+mousemove button=0,shift=0,x=173,y=275
+mousemove button=0,shift=0,x=172,y=273
+mousemove button=0,shift=0,x=172,y=271
+mouseup button=1,shift=0,x=172,y=271
+D:\myphp.php.txt
+mousemove button=1,shift=0,x=172,y=271
+mousemove button=0,shift=0,x=172,y=269
+mousemove button=0,shift=0,x=171,y=260
+mousemove button=0,shift=0,x=171,y=255
+mousemove button=0,shift=0,x=170,y=253
+mousemove button=0,shift=0,x=170,y=249
+mousemove button=0,shift=0,x=170,y=243
+mousemove button=0,shift=0,x=170,y=238
+mousemove button=0,shift=0,x=170,y=229
+mousemove button=0,shift=0,x=170,y=219
+mousemove button=0,shift=0,x=173,y=181
+mousemove button=0,shift=0,x=173,y=177
+mousemove button=0,shift=0,x=173,y=174
+mousemove button=0,shift=0,x=173,y=169
+mousemove button=0,shift=0,x=173,y=165
+mousemove button=0,shift=0,x=174,y=161
+mousemove button=0,shift=0,x=174,y=154
+mousemove button=0,shift=0,x=175,y=150
+mousemove button=0,shift=0,x=175,y=144
+mousemove button=0,shift=0,x=176,y=141
+mousemove button=0,shift=0,x=176,y=136
+mousemove button=0,shift=0,x=177,y=130
+mousemove button=0,shift=0,x=177,y=128
+mousemove button=0,shift=0,x=177,y=127
+mousemove button=0,shift=0,x=177,y=126
+mousemove button=0,shift=0,x=177,y=125
+mousemove button=0,shift=0,x=177,y=123
+mousemove button=0,shift=0,x=177,y=122
+mousemove button=0,shift=0,x=177,y=121
+mousemove button=0,shift=0,x=177,y=120
+mousemove button=0,shift=0,x=177,y=119
+mousemove button=0,shift=0,x=177,y=119
+mousemove button=0,shift=0,x=177,y=120
+mousemove button=0,shift=0,x=177,y=121
+mousemove button=0,shift=0,x=177,y=123
+mousemove button=0,shift=0,x=178,y=128
+mousemove button=0,shift=0,x=179,y=137
+mousemove button=0,shift=0,x=180,y=145
+mousemove button=0,shift=0,x=181,y=152
+mousemove button=0,shift=0,x=182,y=161
+mousemove button=0,shift=0,x=182,y=168
+mousemove button=0,shift=0,x=183,y=175
+mousemove button=0,shift=0,x=184,y=182
+mousemove button=0,shift=0,x=184,y=188
+mousemove button=0,shift=0,x=185,y=194
+mousemove button=0,shift=0,x=186,y=201
+mousemove button=0,shift=0,x=187,y=206
+mousemove button=0,shift=0,x=188,y=213
+mousemove button=0,shift=0,x=188,y=220
+mousemove button=0,shift=0,x=189,y=227
+mousemove button=0,shift=0,x=191,y=236
+mousemove button=0,shift=0,x=191,y=242
+mousemove button=0,shift=0,x=192,y=246
+mousemove button=0,shift=0,x=193,y=251
+mousemove button=0,shift=0,x=196,y=271
+mousemove button=0,shift=0,x=196,y=274
+mousemove button=0,shift=0,x=196,y=276
+mousemove button=0,shift=0,x=196,y=278
+mousemove button=0,shift=0,x=196,y=279
+mousemove button=0,shift=0,x=196,y=280
+mousemove button=0,shift=0,x=196,y=282
+mousemove button=0,shift=0,x=196,y=283
+mousemove button=0,shift=0,x=195,y=284
+mousemove button=0,shift=0,x=194,y=285
+mousemove button=0,shift=0,x=194,y=285
+mousemove button=0,shift=0,x=192,y=285
+mousemove button=0,shift=0,x=191,y=284
+mousemove button=0,shift=0,x=189,y=283
+mousemove button=0,shift=0,x=186,y=282
+mousemove button=0,shift=0,x=183,y=282
+mousemove button=0,shift=0,x=179,y=280
+mousemove button=0,shift=0,x=172,y=277
+mousemove button=0,shift=0,x=154,y=268
+mousemove button=0,shift=0,x=145,y=261
+mousemove button=0,shift=0,x=125,y=244
+mousemove button=0,shift=0,x=119,y=239
+mousemove button=0,shift=0,x=116,y=236
+mousemove button=0,shift=0,x=110,y=231
+mousemove button=0,shift=0,x=106,y=227
+mousemove button=0,shift=0,x=102,y=223
+mousemove button=0,shift=0,x=98,y=219
+mousemove button=0,shift=0,x=93,y=208
+mousemove button=0,shift=0,x=92,y=205
+mousemove button=0,shift=0,x=91,y=202
+mousemove button=0,shift=0,x=91,y=198
+mousemove button=0,shift=0,x=91,y=194
+mousemove button=0,shift=0,x=91,y=192
+mousemove button=0,shift=0,x=94,y=178
+mousemove button=0,shift=0,x=95,y=172
+mousemove button=0,shift=0,x=97,y=165
+mousemove button=0,shift=0,x=97,y=161
+mousemove button=0,shift=0,x=100,y=154
+mousemove button=0,shift=0,x=102,y=147
+mousemove button=0,shift=0,x=104,y=141
+mousemove button=0,shift=0,x=110,y=129
+mousemove button=0,shift=0,x=111,y=126
+mousemove button=0,shift=0,x=114,y=120
+mousemove button=0,shift=0,x=115,y=118
+mousemove button=0,shift=0,x=117,y=116
+mousemove button=0,shift=0,x=119,y=114
+mousemove button=0,shift=0,x=121,y=113
+mousemove button=0,shift=0,x=124,y=111
+mousemove button=0,shift=0,x=132,y=111
+mousemove button=0,shift=0,x=137,y=111
+mousemove button=0,shift=0,x=141,y=112
+mousemove button=0,shift=0,x=146,y=114
+mousemove button=0,shift=0,x=150,y=115
+mousemove button=0,shift=0,x=157,y=118
+mousemove button=0,shift=0,x=160,y=120
+mousemove button=0,shift=0,x=164,y=121
+mousemove button=0,shift=0,x=167,y=125
+mousemove button=0,shift=0,x=170,y=128
+mousemove button=0,shift=0,x=173,y=136
+mousemove button=0,shift=0,x=177,y=143
+mousemove button=0,shift=0,x=180,y=150
+mousemove button=0,shift=0,x=183,y=161
+mousemove button=0,shift=0,x=187,y=169
+mousemove button=0,shift=0,x=191,y=192
+mousemove button=0,shift=0,x=191,y=203
+mousemove button=0,shift=0,x=188,y=211
+mousemove button=0,shift=0,x=187,y=217
+mousemove button=0,shift=0,x=185,y=222
+mousemove button=0,shift=0,x=181,y=226
+mousemove button=0,shift=0,x=177,y=230
+mousemove button=0,shift=0,x=174,y=233
+mousemove button=0,shift=0,x=169,y=234
+mousemove button=0,shift=0,x=161,y=234
+mousemove button=0,shift=0,x=156,y=234
+mousemove button=0,shift=0,x=150,y=234
+mousemove button=0,shift=0,x=138,y=228
+mousemove button=0,shift=0,x=133,y=225
+mousemove button=0,shift=0,x=126,y=222
+mousemove button=0,shift=0,x=116,y=215
+mousemove button=0,shift=0,x=109,y=209
+mousemove button=0,shift=0,x=104,y=203
+mousemove button=0,shift=0,x=97,y=194
+mousemove button=0,shift=0,x=94,y=186
+mousemove button=0,shift=0,x=91,y=181
+mousemove button=0,shift=0,x=89,y=169
+mousemove button=0,shift=0,x=87,y=157
+mousemove button=0,shift=0,x=87,y=101
+mousemove button=0,shift=0,x=90,y=91
+mousemove button=0,shift=0,x=93,y=84
+mousemove button=0,shift=0,x=97,y=78
+mousemove button=0,shift=0,x=102,y=73
+mousemove button=0,shift=0,x=108,y=69
+mousemove button=0,shift=0,x=108,y=69
+mousemove button=0,shift=0,x=111,y=67
+mousemove button=0,shift=0,x=117,y=64
+mousemove button=0,shift=0,x=124,y=62
+mousemove button=0,shift=0,x=131,y=61
+mousemove button=0,shift=0,x=138,y=61
+mousemove button=0,shift=0,x=155,y=66
+mousemove button=0,shift=0,x=161,y=68
+mousemove button=0,shift=0,x=171,y=72
+mousemove button=0,shift=0,x=177,y=76
+mousemove button=0,shift=0,x=181,y=81
+mousemove button=0,shift=0,x=182,y=83
+mousemove button=0,shift=0,x=186,y=89
+mousemove button=0,shift=0,x=188,y=98
+mousemove button=0,shift=0,x=190,y=106
+mousemove button=0,shift=0,x=190,y=113
+mousemove button=0,shift=0,x=187,y=137
+mousemove button=0,shift=0,x=183,y=145
+mousemove button=0,shift=0,x=169,y=164
+mousemove button=0,shift=0,x=163,y=168
+mousemove button=0,shift=0,x=159,y=170
+mousemove button=0,shift=0,x=154,y=172
+mousemove button=0,shift=0,x=149,y=174
+mousemove button=0,shift=0,x=142,y=174
+mousemove button=0,shift=0,x=136,y=174
+mousemove button=0,shift=0,x=129,y=173
+mousemove button=0,shift=0,x=122,y=172
+mousemove button=0,shift=0,x=115,y=168
+mousemove button=0,shift=0,x=108,y=165
+mousemove button=0,shift=0,x=103,y=163
+mousemove button=0,shift=0,x=86,y=145
+mousemove button=0,shift=0,x=83,y=136
+mousemove button=0,shift=0,x=79,y=109
+mousemove button=0,shift=0,x=79,y=97
+mousemove button=0,shift=0,x=82,y=85
+mousemove button=0,shift=0,x=84,y=78
+mousemove button=0,shift=0,x=88,y=68
+mousemove button=0,shift=0,x=88,y=68
+mousemove button=0,shift=0,x=95,y=60
+mousemove button=0,shift=0,x=109,y=47
+mousemove button=0,shift=0,x=116,y=45
+mousemove button=0,shift=0,x=121,y=44
+mousemove button=0,shift=0,x=133,y=45
+mousemove button=0,shift=0,x=142,y=48
+mousemove button=0,shift=0,x=150,y=49
+mousemove button=0,shift=0,x=158,y=52
+mousemove button=0,shift=0,x=167,y=55
+mousemove button=0,shift=0,x=174,y=59
+mousemove button=0,shift=0,x=182,y=63
+mousemove button=0,shift=0,x=193,y=77
+mousemove button=0,shift=0,x=199,y=87
+mousemove button=0,shift=0,x=203,y=95
+mousemove button=0,shift=0,x=204,y=104
+mousemove button=0,shift=0,x=205,y=114
+mousemove button=0,shift=0,x=203,y=124
+mousemove button=0,shift=0,x=192,y=152
+mousemove button=0,shift=0,x=186,y=161
+mousemove button=0,shift=0,x=179,y=168
+mousemove button=0,shift=0,x=174,y=171
+mousemove button=0,shift=0,x=151,y=185
+mousemove button=0,shift=0,x=140,y=188
+mousemove button=0,shift=0,x=129,y=192
+mousemove button=0,shift=0,x=118,y=193
+mousemove button=0,shift=0,x=108,y=194
+mousemove button=0,shift=0,x=98,y=192
+mousemove button=0,shift=0,x=85,y=189
+mousemove button=0,shift=0,x=80,y=186
+mousemove button=0,shift=0,x=78,y=185
+mousemove button=0,shift=0,x=75,y=181
+mousemove button=0,shift=0,x=73,y=178
+mousemove button=0,shift=0,x=71,y=174
+mousemove button=0,shift=0,x=71,y=168
+mousemove button=0,shift=0,x=70,y=146
+mousemove button=0,shift=0,x=70,y=132
+mousemove button=0,shift=0,x=72,y=123
+mousemove button=0,shift=0,x=75,y=109
+mousemove button=0,shift=0,x=78,y=101
+mousemove button=0,shift=0,x=81,y=94
+mousemove button=0,shift=0,x=83,y=92
+mousemove button=0,shift=0,x=92,y=85
+mousemove button=0,shift=0,x=98,y=84
+mousemove button=0,shift=0,x=111,y=84
+mousemove button=0,shift=0,x=118,y=86
+mousemove button=0,shift=0,x=126,y=88
+mousemove button=0,shift=0,x=132,y=89
+mousemove button=0,shift=0,x=137,y=91
+mousemove button=0,shift=0,x=145,y=98
+mousemove button=0,shift=0,x=151,y=103
+mousemove button=0,shift=0,x=165,y=122
+mousemove button=0,shift=0,x=169,y=131
+mousemove button=0,shift=0,x=173,y=140
+mousemove button=0,shift=0,x=179,y=171
+mousemove button=0,shift=0,x=179,y=183
+mousemove button=0,shift=0,x=179,y=191
+mousemove button=0,shift=0,x=176,y=202
+mousemove button=0,shift=0,x=173,y=213
+mousemove button=0,shift=0,x=169,y=223
+mousemove button=0,shift=0,x=165,y=229
+mousemove button=0,shift=0,x=161,y=233
+mousemove button=0,shift=0,x=155,y=236
+mousemove button=0,shift=0,x=151,y=237
+mousemove button=0,shift=0,x=148,y=237
+mousemove button=0,shift=0,x=136,y=237
+mousemove button=0,shift=0,x=129,y=236
+mousemove button=0,shift=0,x=107,y=227
+mousemove button=0,shift=0,x=99,y=222
+mousemove button=0,shift=0,x=88,y=216
+mousemove button=0,shift=0,x=80,y=210
+mousemove button=0,shift=0,x=74,y=204
+mousemove button=0,shift=0,x=68,y=196
+mousemove button=0,shift=0,x=63,y=187
+mousemove button=0,shift=0,x=54,y=157
+mousemove button=0,shift=0,x=53,y=145
+mousemove button=0,shift=0,x=54,y=126
+mousemove button=0,shift=0,x=57,y=117
+mousemove button=0,shift=0,x=61,y=111
+mousemove button=0,shift=0,x=66,y=103
+mousemove button=0,shift=0,x=70,y=99
+mousemove button=0,shift=0,x=75,y=95
+mousemove button=0,shift=0,x=75,y=95
+mousemove button=0,shift=0,x=80,y=91
+mousemove button=0,shift=0,x=86,y=88
+mousemove button=0,shift=0,x=88,y=87
+mousemove button=0,shift=0,x=92,y=86
+mousemove button=0,shift=0,x=104,y=85
+mousemove button=0,shift=0,x=110,y=85
+mousemove button=0,shift=0,x=114,y=87
+mousemove button=0,shift=0,x=118,y=90
+mousemove button=0,shift=0,x=122,y=94
+mousemove button=0,shift=0,x=127,y=99
+mousemove button=0,shift=0,x=138,y=119
+mousemove button=0,shift=0,x=142,y=130
+mousemove button=0,shift=0,x=145,y=141
+mousemove button=0,shift=0,x=148,y=153
+mousemove button=0,shift=0,x=149,y=167
+mousemove button=0,shift=0,x=151,y=189
+mousemove button=0,shift=0,x=151,y=216
+mousemove button=0,shift=0,x=149,y=222
+mousemove button=0,shift=0,x=148,y=224
+mousemove button=0,shift=0,x=145,y=226
+mousemove button=0,shift=0,x=143,y=226
+mousemove button=0,shift=0,x=137,y=227
+mousemove button=0,shift=0,x=132,y=226
+mousemove button=0,shift=0,x=125,y=224
+mousemove button=0,shift=0,x=116,y=221
+mousemove button=0,shift=0,x=107,y=218
+mousemove button=0,shift=0,x=101,y=215
+mousemove button=0,shift=0,x=84,y=208
+mousemove button=0,shift=0,x=38,y=173
+mousemove button=0,shift=0,x=20,y=157
+mousemove button=0,shift=0,x=8,y=143
+mousemove button=0,shift=0,x=1,y=131
+mousemove button=0,shift=0,x=1,y=75
+mousemove button=0,shift=0,x=17,y=61
+mousemove button=0,shift=0,x=31,y=54
+mousemove button=0,shift=0,x=38,y=51
+mousemove button=0,shift=0,x=45,y=50
+mousemove button=0,shift=0,x=54,y=48
+mousemove button=0,shift=0,x=59,y=48
+mousemove button=0,shift=0,x=66,y=48
+mousemove button=0,shift=0,x=69,y=48
+mousemove button=0,shift=0,x=75,y=48
+mousemove button=0,shift=0,x=85,y=52
+mousemove button=0,shift=0,x=96,y=57
+mousemove button=0,shift=0,x=101,y=62
+mousemove button=0,shift=0,x=107,y=68
+mousemove button=0,shift=0,x=111,y=76
+mousemove button=0,shift=0,x=114,y=83
+mousemove button=0,shift=0,x=117,y=94
+mousemove button=0,shift=0,x=120,y=104
+mousemove button=0,shift=0,x=121,y=115
+mousemove button=0,shift=0,x=121,y=127
+mousemove button=0,shift=0,x=118,y=138
+mousemove button=0,shift=0,x=110,y=160
+mousemove button=0,shift=0,x=105,y=167
+mousemove button=0,shift=0,x=99,y=170
+mousemove button=0,shift=0,x=94,y=172
+mousemove button=0,shift=0,x=89,y=173
+mousemove button=0,shift=0,x=62,y=170
+mousemove button=0,shift=0,x=55,y=168
+mousemove button=0,shift=0,x=47,y=165
+mousemove button=0,shift=0,x=40,y=161
+mousemove button=0,shift=0,x=34,y=159
+mousemove button=0,shift=0,x=31,y=155
+mousemove button=0,shift=0,x=27,y=151
+mousemove button=0,shift=0,x=23,y=142
+mousemove button=0,shift=0,x=22,y=136
+mousemove button=0,shift=0,x=22,y=128
+mousemove button=0,shift=0,x=22,y=119
+mousemove button=0,shift=0,x=24,y=109
+mousemove button=0,shift=0,x=27,y=98
+mousemove button=0,shift=0,x=32,y=87
+mousemove button=0,shift=0,x=37,y=79
+mousemove button=0,shift=0,x=42,y=71
+mousemove button=0,shift=0,x=47,y=65
+mousemove button=0,shift=0,x=52,y=62
+mousemove button=0,shift=0,x=72,y=53
+mousemove button=0,shift=0,x=82,y=50
+mousemove button=0,shift=0,x=90,y=49
+mousemove button=0,shift=0,x=108,y=50
+mousemove button=0,shift=0,x=121,y=53
+mousemove button=0,shift=0,x=127,y=56
+mousemove button=0,shift=0,x=130,y=58
+mousemove button=0,shift=0,x=135,y=63
+mousemove button=0,shift=0,x=141,y=69
+mousemove button=0,shift=0,x=145,y=76
+mousemove button=0,shift=0,x=158,y=103
+mousemove button=0,shift=0,x=161,y=112
+mousemove button=0,shift=0,x=164,y=123
+mousemove button=0,shift=0,x=165,y=135
+mousemove button=0,shift=0,x=163,y=145
+mousemove button=0,shift=0,x=162,y=151
+mousemove button=0,shift=0,x=160,y=157
+mousemove button=0,shift=0,x=156,y=163
+mousemove button=0,shift=0,x=151,y=166
+mousemove button=0,shift=0,x=145,y=168
+mousemove button=0,shift=0,x=138,y=169
+mousemove button=0,shift=0,x=122,y=169
+mousemove button=0,shift=0,x=112,y=166
+mousemove button=0,shift=0,x=103,y=164
+mousemove button=0,shift=0,x=93,y=161
+mousemove button=0,shift=0,x=86,y=158
+mousemove button=0,shift=0,x=78,y=154
+mousemove button=0,shift=0,x=64,y=141
+mousemove button=0,shift=0,x=57,y=124
+mousemove button=0,shift=0,x=56,y=117
+mousemove button=0,shift=0,x=56,y=110
+mousemove button=0,shift=0,x=63,y=83
+mousemove button=0,shift=0,x=67,y=73
+mousemove button=0,shift=0,x=72,y=64
+mousemove button=0,shift=0,x=77,y=57
+mousemove button=0,shift=0,x=80,y=54
+mousemove button=0,shift=0,x=80,y=54
+mousemove button=0,shift=0,x=84,y=49
+mousemove button=0,shift=0,x=90,y=45
+mousemove button=0,shift=0,x=94,y=42
+mousemove button=0,shift=0,x=100,y=38
+mousemove button=0,shift=0,x=104,y=36
+mousemove button=0,shift=0,x=107,y=36
+mousemove button=0,shift=0,x=110,y=36
+mousemove button=0,shift=0,x=120,y=38
+mousemove button=0,shift=0,x=123,y=39
+mousemove button=0,shift=0,x=127,y=40
+mousemove button=0,shift=0,x=131,y=44
+mousemove button=0,shift=0,x=135,y=49
+mousemove button=0,shift=0,x=140,y=53
+mousemove button=0,shift=0,x=145,y=61
+mousemove button=0,shift=0,x=157,y=87
+mousemove button=0,shift=0,x=164,y=122
+mousemove button=0,shift=0,x=165,y=132
+mousemove button=0,shift=0,x=165,y=143
+mousemove button=0,shift=0,x=162,y=170
+mousemove button=0,shift=0,x=160,y=178
+mousemove button=0,shift=0,x=158,y=180
+mousemove button=0,shift=0,x=155,y=185
+mousemove button=0,shift=0,x=151,y=186
+mousemove button=0,shift=0,x=144,y=187
+mousemove button=0,shift=0,x=138,y=187
+mousemove button=0,shift=0,x=129,y=184
+mousemove button=0,shift=0,x=119,y=182
+mousemove button=0,shift=0,x=106,y=179
+mousemove button=0,shift=0,x=92,y=173
+mousemove button=0,shift=0,x=74,y=165
+mousemove button=0,shift=0,x=29,y=137
+mousemove button=0,shift=0,x=7,y=121
+mousemove button=0,shift=0,x=25,y=82
+mousemove button=0,shift=0,x=36,y=89
+mousemove button=0,shift=0,x=43,y=93
+mousemove button=0,shift=0,x=74,y=110
+mousemove button=0,shift=0,x=85,y=116
+mousemove button=0,shift=0,x=95,y=123
+mousemove button=0,shift=0,x=105,y=129
+mousemove button=0,shift=0,x=115,y=138
+mousemove button=0,shift=0,x=122,y=143
+mousemove button=0,shift=0,x=127,y=145
+mousemove button=0,shift=0,x=130,y=148
+mousemove button=0,shift=0,x=132,y=149
+mousemove button=0,shift=0,x=134,y=152
+mousemove button=0,shift=0,x=135,y=153
+mousemove button=0,shift=0,x=135,y=154
+mousemove button=0,shift=0,x=135,y=154
+mousemove button=0,shift=0,x=136,y=155
+mousemove button=0,shift=0,x=136,y=156
+mousemove button=0,shift=0,x=136,y=157
+mousemove button=0,shift=0,x=136,y=158
+mousemove button=0,shift=0,x=134,y=160
+mousemove button=0,shift=0,x=132,y=162
+mousemove button=0,shift=0,x=130,y=164
+mousemove button=0,shift=0,x=128,y=168
+mousemove button=0,shift=0,x=125,y=169
+mousemove button=0,shift=0,x=123,y=170
+mousemove button=0,shift=0,x=119,y=172
+mousemove button=0,shift=0,x=116,y=172
+mousemove button=0,shift=0,x=113,y=172
+mousemove button=0,shift=0,x=110,y=172
+mousemove button=0,shift=0,x=107,y=170
+mousemove button=0,shift=0,x=102,y=169
+mousemove button=0,shift=0,x=95,y=166
+mousemove button=0,shift=0,x=89,y=162
+mousemove button=0,shift=0,x=81,y=157
+mousemove button=0,shift=0,x=57,y=139
+mousemove button=0,shift=0,x=50,y=132
+mousemove button=0,shift=0,x=40,y=121
+mousemove button=0,shift=0,x=22,y=100
+mousemove button=0,shift=0,x=19,y=92
+mousemove button=0,shift=0,x=18,y=87
+mousemove button=0,shift=0,x=18,y=83
+mousemove button=0,shift=0,x=17,y=76
+mousemove button=0,shift=0,x=17,y=74
+mousemove button=0,shift=0,x=18,y=72
+mousemove button=0,shift=0,x=26,y=72
+mousemove button=0,shift=0,x=31,y=73
+mousemove button=0,shift=0,x=35,y=74
+mousemove button=0,shift=0,x=35,y=74
+mousemove button=0,shift=0,x=40,y=76
+mousemove button=0,shift=0,x=45,y=78
+mousemove button=0,shift=0,x=51,y=81
+mousemove button=0,shift=0,x=56,y=85
+mousemove button=0,shift=0,x=62,y=89
+mousemove button=0,shift=0,x=66,y=92
+mousemove button=0,shift=0,x=67,y=95
+mousemove button=0,shift=0,x=70,y=98
+mousemove button=0,shift=0,x=70,y=101
+mousemove button=0,shift=0,x=70,y=103
+mousemove button=0,shift=0,x=70,y=107
+mousemove button=0,shift=0,x=66,y=115
+mousemove button=0,shift=0,x=64,y=118
+mousemove button=0,shift=0,x=60,y=121
+mousemove button=0,shift=0,x=55,y=123
+mousemove button=0,shift=0,x=45,y=127
+mousemove button=0,shift=0,x=42,y=127
+mousemove button=0,shift=0,x=41,y=127
+mousemove button=0,shift=0,x=39,y=127
+mousemove button=0,shift=0,x=38,y=126
+mousemove button=0,shift=0,x=34,y=121
+mousemove button=0,shift=0,x=32,y=117
+mousemove button=0,shift=0,x=31,y=113
+mousemove button=0,shift=0,x=31,y=108
+mousemove button=0,shift=0,x=31,y=103
+mousemove button=0,shift=0,x=31,y=98
+mousemove button=0,shift=0,x=31,y=92
+mousemove button=0,shift=0,x=31,y=86
+mousemove button=0,shift=0,x=32,y=83
+mousemove button=0,shift=0,x=34,y=75
+mousemove button=0,shift=0,x=38,y=68
+mousemove button=0,shift=0,x=43,y=61
+mousemove button=0,shift=0,x=50,y=52
+mousemove button=0,shift=0,x=52,y=51
+mousemove button=0,shift=0,x=53,y=51
+mousemove button=0,shift=0,x=55,y=52
+mousemove button=0,shift=0,x=58,y=53
+mousemove button=0,shift=0,x=62,y=58
+mousemove button=0,shift=0,x=69,y=63
+mousemove button=0,shift=0,x=88,y=87
+mousemove button=0,shift=0,x=101,y=104
+mousemove button=0,shift=0,x=104,y=112
+mousemove button=0,shift=0,x=106,y=119
+mousemove button=0,shift=0,x=106,y=123
+mousemove button=0,shift=0,x=105,y=127
+mousemove button=0,shift=0,x=102,y=130
+mousemove button=0,shift=0,x=99,y=132
+mousemove button=0,shift=0,x=93,y=133
+mousemove button=0,shift=0,x=86,y=133
+mousemove button=0,shift=0,x=78,y=133
+mousemove button=0,shift=0,x=70,y=131
+mousemove button=0,shift=0,x=62,y=128
+mousemove button=0,shift=0,x=50,y=124
+mousemove button=0,shift=0,x=45,y=120
+mousemove button=0,shift=0,x=43,y=119
+mousemove button=0,shift=0,x=43,y=117
+mousemove button=0,shift=0,x=43,y=113
+mousemove button=0,shift=0,x=43,y=109
+mousemove button=0,shift=0,x=45,y=106
+mousemove button=0,shift=0,x=47,y=103
+mousemove button=0,shift=0,x=50,y=100
+mousemove button=0,shift=0,x=54,y=95
+mousemove button=0,shift=0,x=73,y=84
+mousemove button=0,shift=0,x=113,y=75
+mousemove button=0,shift=0,x=121,y=75
+mousemove button=0,shift=0,x=125,y=75
+mousemove button=0,shift=0,x=132,y=75
+mousemove button=0,shift=0,x=137,y=75
+mousemove button=0,shift=0,x=144,y=77
+mousemove button=0,shift=0,x=150,y=79
+mousemove button=0,shift=0,x=153,y=82
+mousemove button=0,shift=0,x=157,y=85
+mousemove button=0,shift=0,x=160,y=88
+mousemove button=0,shift=0,x=161,y=91
+mousemove button=0,shift=0,x=167,y=106
+mousemove button=0,shift=0,x=168,y=110
+mousemove button=0,shift=0,x=169,y=117
+mousemove button=0,shift=0,x=170,y=122
+mousemove button=0,shift=0,x=170,y=127
+mousemove button=0,shift=0,x=170,y=127
+mousemove button=0,shift=0,x=170,y=136
+mousemove button=0,shift=0,x=167,y=143
+mousemove button=0,shift=0,x=165,y=146
+mousemove button=0,shift=0,x=163,y=151
+mousemove button=0,shift=0,x=161,y=152
+mousemove button=0,shift=0,x=158,y=154
+mousemove button=0,shift=0,x=148,y=155
+mousemove button=0,shift=0,x=137,y=153
+mousemove button=0,shift=0,x=132,y=152
+mousemove button=0,shift=0,x=113,y=142
+mousemove button=0,shift=0,x=104,y=135
+mousemove button=0,shift=0,x=96,y=127
+mousemove button=0,shift=0,x=89,y=118
+mousemove button=0,shift=0,x=83,y=108
+mousemove button=0,shift=0,x=78,y=101
+mousemove button=0,shift=0,x=75,y=94
+mousemove button=0,shift=0,x=73,y=84
+mousemove button=0,shift=0,x=72,y=79
+mousemove button=0,shift=0,x=72,y=75
+mousemove button=0,shift=0,x=73,y=66
+mousemove button=0,shift=0,x=76,y=59
+mousemove button=0,shift=0,x=80,y=53
+mousemove button=0,shift=0,x=82,y=53
+mousemove button=0,shift=0,x=85,y=52
+mousemove button=0,shift=0,x=87,y=52
+mousemove button=0,shift=0,x=89,y=51
+mousemove button=0,shift=0,x=92,y=51
+mousemove button=0,shift=0,x=97,y=52
+mousemove button=0,shift=0,x=101,y=54
+mousemove button=0,shift=0,x=104,y=56
+mousemove button=0,shift=0,x=139,y=78
+mousemove button=0,shift=0,x=148,y=85
+mousemove button=0,shift=0,x=164,y=102
+mousemove button=0,shift=0,x=169,y=108
+mousemove button=0,shift=0,x=175,y=116
+mousemove button=0,shift=0,x=175,y=116
+mousemove button=0,shift=0,x=178,y=125
+mousemove button=0,shift=0,x=180,y=133
+mousemove button=0,shift=0,x=180,y=140
+mousemove button=0,shift=0,x=180,y=146
+mousemove button=0,shift=0,x=178,y=151
+mousemove button=0,shift=0,x=173,y=153
+mousemove button=0,shift=0,x=168,y=156
+mousemove button=0,shift=0,x=163,y=156
+mousemove button=0,shift=0,x=155,y=158
+mousemove button=0,shift=0,x=148,y=157
+mousemove button=0,shift=0,x=144,y=156
+mousemove button=0,shift=0,x=124,y=149
+mousemove button=0,shift=0,x=117,y=146
+mousemove button=0,shift=0,x=112,y=142
+mousemove button=0,shift=0,x=109,y=139
+mousemove button=0,shift=0,x=108,y=136
+mousemove button=0,shift=0,x=105,y=133
+mousemove button=0,shift=0,x=104,y=130
+mousemove button=0,shift=0,x=104,y=128
+mousemove button=0,shift=0,x=105,y=121
+mousemove button=0,shift=0,x=108,y=117
+mousemove button=0,shift=0,x=118,y=108
+mousemove button=0,shift=0,x=125,y=105
+mousemove button=0,shift=0,x=145,y=97
+mousemove button=0,shift=0,x=149,y=97
+mousemove button=0,shift=0,x=157,y=97
+mousemove button=0,shift=0,x=164,y=97
+mousemove button=0,shift=0,x=171,y=97
+mousemove button=0,shift=0,x=177,y=98
+mousemove button=0,shift=0,x=181,y=100
+mousemove button=0,shift=0,x=183,y=102
+mousemove button=0,shift=0,x=185,y=103
+mousemove button=0,shift=0,x=187,y=106
+mousemove button=0,shift=0,x=188,y=109
+mousemove button=0,shift=0,x=190,y=113
+mousemove button=0,shift=0,x=190,y=117
+mousemove button=0,shift=0,x=190,y=121
+mousemove button=0,shift=0,x=186,y=130
+mousemove button=0,shift=0,x=183,y=133
+mousemove button=0,shift=0,x=178,y=136
+mousemove button=0,shift=0,x=171,y=139
+mousemove button=0,shift=0,x=164,y=141
+mousemove button=0,shift=0,x=145,y=144
+mousemove button=0,shift=0,x=134,y=145
+mousemove button=0,shift=0,x=124,y=145
+mousemove button=0,shift=0,x=114,y=146
+mousemove button=0,shift=0,x=101,y=144
+mousemove button=0,shift=0,x=100,y=144
+mousemove button=0,shift=0,x=100,y=141
+mousemove button=0,shift=0,x=101,y=139
+mousemove button=0,shift=0,x=104,y=135
+mousemove button=0,shift=0,x=108,y=132
+mousemove button=0,shift=0,x=112,y=128
+mousemove button=0,shift=0,x=115,y=123
+mousemove button=0,shift=0,x=119,y=118
+mousemove button=0,shift=0,x=123,y=111
+mousemove button=0,shift=0,x=128,y=107
+mousemove button=0,shift=0,x=133,y=101
+mousemove button=0,shift=0,x=145,y=89
+mousemove button=0,shift=0,x=149,y=87
+mousemove button=0,shift=0,x=153,y=87
+mousemove button=0,shift=0,x=156,y=87
+mousemove button=0,shift=0,x=158,y=87
+mousemove button=0,shift=0,x=160,y=87
+mousemove button=0,shift=0,x=165,y=89
+mousemove button=0,shift=0,x=172,y=92
+mousemove button=0,shift=0,x=174,y=95
+mousemove button=0,shift=0,x=179,y=103
+mousemove button=0,shift=0,x=181,y=110
+mousemove button=0,shift=0,x=184,y=127
+mousemove button=0,shift=0,x=186,y=135
+mousemove button=0,shift=0,x=187,y=145
+mousemove button=0,shift=0,x=187,y=148
+mousemove button=0,shift=0,x=186,y=154
+mousemove button=0,shift=0,x=184,y=160
+mousemove button=0,shift=0,x=182,y=163
+mousemove button=0,shift=0,x=177,y=168
+mousemove button=0,shift=0,x=173,y=173
+mousemove button=0,shift=0,x=168,y=175
+mousemove button=0,shift=0,x=160,y=177
+mousemove button=0,shift=0,x=154,y=177
+mousemove button=0,shift=0,x=146,y=178
+mousemove button=0,shift=0,x=124,y=172
+mousemove button=0,shift=0,x=116,y=169
+mousemove button=0,shift=0,x=110,y=165
+mousemove button=0,shift=0,x=100,y=161
+mousemove button=0,shift=0,x=94,y=154
+mousemove button=0,shift=0,x=86,y=146
+mousemove button=0,shift=0,x=77,y=127
+mousemove button=0,shift=0,x=76,y=120
+mousemove button=0,shift=0,x=76,y=112
+mousemove button=0,shift=0,x=84,y=96
+mousemove button=0,shift=0,x=88,y=93
+mousemove button=0,shift=0,x=94,y=91
+mousemove button=0,shift=0,x=99,y=89
+mousemove button=0,shift=0,x=104,y=88
+mousemove button=0,shift=0,x=111,y=87
+mousemove button=0,shift=0,x=116,y=87
+mousemove button=0,shift=0,x=119,y=87
+mousemove button=0,shift=0,x=126,y=87
+mousemove button=0,shift=0,x=133,y=89
+mousemove button=0,shift=0,x=155,y=95
+mousemove button=0,shift=0,x=164,y=100
+mousemove button=0,shift=0,x=172,y=105
+mousemove button=0,shift=0,x=181,y=110
+mousemove button=0,shift=0,x=187,y=118
+mousemove button=0,shift=0,x=192,y=125
+mousemove button=0,shift=0,x=198,y=134
+mousemove button=0,shift=0,x=200,y=141
+mousemove button=0,shift=0,x=203,y=149
+mousemove button=0,shift=0,x=203,y=156
+mousemove button=0,shift=0,x=201,y=169
+mousemove button=0,shift=0,x=200,y=172
+mousemove button=0,shift=0,x=194,y=180
+mousemove button=0,shift=0,x=185,y=188
+mousemove button=0,shift=0,x=181,y=189
+mousemove button=0,shift=0,x=175,y=191
+mousemove button=0,shift=0,x=169,y=192
+mousemove button=0,shift=0,x=160,y=193
+mousemove button=0,shift=0,x=152,y=193
+mousemove button=0,shift=0,x=144,y=193
+mousemove button=0,shift=0,x=135,y=191
+mousemove button=0,shift=0,x=126,y=188
+mousemove button=0,shift=0,x=118,y=185
+mousemove button=0,shift=0,x=113,y=182
+mousemove button=0,shift=0,x=106,y=178
+mousemove button=0,shift=0,x=84,y=158
+mousemove button=0,shift=0,x=68,y=133
+mousemove button=0,shift=0,x=65,y=126
+mousemove button=0,shift=0,x=62,y=119
+mousemove button=0,shift=0,x=62,y=114
+mousemove button=0,shift=0,x=62,y=107
+mousemove button=0,shift=0,x=62,y=101
+mousemove button=0,shift=0,x=63,y=100
+mousemove button=0,shift=0,x=71,y=92
+mousemove button=0,shift=0,x=74,y=91
+mousemove button=0,shift=0,x=84,y=87
+mousemove button=0,shift=0,x=87,y=86
+mousemove button=0,shift=0,x=90,y=85
+mousemove button=0,shift=0,x=93,y=84
+mousemove button=0,shift=0,x=96,y=83
+mousemove button=0,shift=0,x=100,y=83
+mousemove button=0,shift=0,x=105,y=83
+mousemove button=0,shift=0,x=117,y=86
+mousemove button=0,shift=0,x=123,y=89
+mousemove button=0,shift=0,x=130,y=92
+mousemove button=0,shift=0,x=134,y=97
+mousemove button=0,shift=0,x=140,y=102
+mousemove button=0,shift=0,x=148,y=113
+mousemove button=0,shift=0,x=151,y=119
+mousemove button=0,shift=0,x=153,y=125
+mousemove button=0,shift=0,x=153,y=130
+mousemove button=0,shift=0,x=153,y=134
+mousemove button=0,shift=0,x=153,y=139
+mousemove button=0,shift=0,x=152,y=142
+mousemove button=0,shift=0,x=149,y=146
+mousemove button=0,shift=0,x=144,y=151
+mousemove button=0,shift=0,x=139,y=154
+mousemove button=0,shift=0,x=133,y=157
+mousemove button=0,shift=0,x=128,y=159
+mousemove button=0,shift=0,x=113,y=161
+mousemove button=0,shift=0,x=105,y=161
+mousemove button=0,shift=0,x=93,y=161
+mousemove button=0,shift=0,x=82,y=159
+mousemove button=0,shift=0,x=71,y=156
+mousemove button=0,shift=0,x=43,y=144
+mousemove button=0,shift=0,x=35,y=138
+mousemove button=0,shift=0,x=29,y=133
+mousemove button=0,shift=0,x=25,y=127
+mousemove button=0,shift=0,x=24,y=125
+mousemove button=0,shift=0,x=21,y=119
+mousemove button=0,shift=0,x=18,y=107
+mousemove button=0,shift=0,x=18,y=100
+mousemove button=0,shift=0,x=18,y=92
+mousemove button=0,shift=0,x=20,y=85
+mousemove button=0,shift=0,x=22,y=78
+mousemove button=0,shift=0,x=25,y=75
+mousemove button=0,shift=0,x=27,y=71
+mousemove button=0,shift=0,x=30,y=68
+mousemove button=0,shift=0,x=36,y=65
+mousemove button=0,shift=0,x=42,y=63
+mousemove button=0,shift=0,x=48,y=62
+mousemove button=0,shift=0,x=64,y=62
+mousemove button=0,shift=0,x=71,y=64
+mousemove button=0,shift=0,x=79,y=67
+mousemove button=0,shift=0,x=88,y=70
+mousemove button=0,shift=0,x=92,y=73
+mousemove button=0,shift=0,x=100,y=77
+mousemove button=0,shift=0,x=107,y=84
+mousemove button=0,shift=0,x=113,y=90
+mousemove button=0,shift=0,x=117,y=98
+mousemove button=0,shift=0,x=123,y=108
+mousemove button=0,shift=0,x=130,y=122
+mousemove button=0,shift=0,x=131,y=133
+mousemove button=0,shift=0,x=130,y=137
+mousemove button=0,shift=0,x=127,y=142
+mousemove button=0,shift=0,x=123,y=145
+mousemove button=0,shift=0,x=118,y=149
+mousemove button=0,shift=0,x=118,y=149
+mousemove button=0,shift=0,x=113,y=152
+mousemove button=0,shift=0,x=108,y=153
+mousemove button=0,shift=0,x=99,y=156
+mousemove button=0,shift=0,x=94,y=156
+mousemove button=0,shift=0,x=80,y=157
+mousemove button=0,shift=0,x=74,y=157
+mousemove button=0,shift=0,x=70,y=156
+mousemove button=0,shift=0,x=63,y=153
+mousemove button=0,shift=0,x=59,y=149
+mousemove button=0,shift=0,x=59,y=148
+mousemove button=0,shift=0,x=57,y=146
+mousemove button=0,shift=0,x=56,y=142
+mousemove button=0,shift=0,x=56,y=141
+mousemove button=0,shift=0,x=56,y=138
+mousemove button=0,shift=0,x=56,y=136
+mousemove button=0,shift=0,x=56,y=132
+mousemove button=0,shift=0,x=56,y=129
+mousemove button=0,shift=0,x=59,y=121
+mousemove button=0,shift=0,x=66,y=112
+mousemove button=0,shift=0,x=69,y=107
+mousemove button=0,shift=0,x=74,y=101
+mousemove button=0,shift=0,x=76,y=99
+mousemove button=0,shift=0,x=78,y=98
+mousemove button=0,shift=0,x=79,y=96
+mousemove button=0,shift=0,x=81,y=96
+mousemove button=0,shift=0,x=82,y=96
+mousemove button=0,shift=0,x=84,y=95
+mousemove button=0,shift=0,x=87,y=95
+mousemove button=0,shift=0,x=91,y=96
+mousemove button=0,shift=0,x=94,y=98
+mousemove button=0,shift=0,x=98,y=101
+mousemove button=0,shift=0,x=102,y=109
+mousemove button=0,shift=0,x=107,y=114
+mousemove button=0,shift=0,x=112,y=120
+mousemove button=0,shift=0,x=115,y=123
+mousemove button=0,shift=0,x=119,y=129
+mousemove button=0,shift=0,x=119,y=129
+mousemove button=0,shift=0,x=123,y=134
+mousemove button=0,shift=0,x=125,y=140
+mousemove button=0,shift=0,x=127,y=146
+mousemove button=0,shift=0,x=128,y=149
+mousemove button=0,shift=0,x=128,y=152
+mousemove button=0,shift=0,x=121,y=159
+mousemove button=0,shift=0,x=115,y=162
+mousemove button=0,shift=0,x=111,y=163
+mousemove button=0,shift=0,x=104,y=164
+mousemove button=0,shift=0,x=97,y=165
+mousemove button=0,shift=0,x=90,y=165
+mousemove button=0,shift=0,x=86,y=164
+mousemove button=0,shift=0,x=75,y=163
+mousemove button=0,shift=0,x=70,y=161
+mousemove button=0,shift=0,x=52,y=151
+mousemove button=0,shift=0,x=47,y=148
+mousemove button=0,shift=0,x=45,y=144
+mousemove button=0,shift=0,x=41,y=138
+mousemove button=0,shift=0,x=39,y=129
+mousemove button=0,shift=0,x=39,y=124
+mousemove button=0,shift=0,x=42,y=120
+mousemove button=0,shift=0,x=46,y=115
+mousemove button=0,shift=0,x=50,y=111
+mousemove button=0,shift=0,x=53,y=108
+mousemove button=0,shift=0,x=58,y=105
+mousemove button=0,shift=0,x=60,y=103
+mousemove button=0,shift=0,x=64,y=100
+mousemove button=0,shift=0,x=68,y=97
+mousemove button=0,shift=0,x=78,y=92
+mousemove button=0,shift=0,x=91,y=87
+mousemove button=0,shift=0,x=95,y=86
+mousemove button=0,shift=0,x=98,y=86
+mousemove button=0,shift=0,x=103,y=86
+mousemove button=0,shift=0,x=107,y=86
+mousemove button=0,shift=0,x=113,y=88
+mousemove button=0,shift=0,x=119,y=92
+mousemove button=0,shift=0,x=124,y=95
+mousemove button=0,shift=0,x=131,y=105
+mousemove button=0,shift=0,x=137,y=111
+mousemove button=0,shift=0,x=147,y=126
+mousemove button=0,shift=0,x=150,y=132
+mousemove button=0,shift=0,x=151,y=137
+mousemove button=0,shift=0,x=152,y=142
+mousemove button=0,shift=0,x=152,y=146
+mousemove button=0,shift=0,x=152,y=149
+mousemove button=0,shift=0,x=152,y=152
+mousemove button=0,shift=0,x=149,y=155
+mousemove button=0,shift=0,x=148,y=155
+mousemove button=0,shift=0,x=147,y=155
+mousemove button=0,shift=0,x=145,y=156
+mousemove button=0,shift=0,x=143,y=157
+mousemove button=0,shift=0,x=138,y=157
+mousemove button=0,shift=0,x=135,y=157
+mousemove button=0,shift=0,x=123,y=155
+mousemove button=0,shift=0,x=115,y=152
+mousemove button=0,shift=0,x=108,y=149
+mousemove button=0,shift=0,x=101,y=147
+mousemove button=0,shift=0,x=95,y=144
+mousemove button=0,shift=0,x=84,y=137
+mousemove button=0,shift=0,x=80,y=134
+mousemove button=0,shift=0,x=76,y=128
+mousemove button=0,shift=0,x=76,y=125
+mousemove button=0,shift=0,x=75,y=122
+mousemove button=0,shift=0,x=75,y=119
+mousemove button=0,shift=0,x=76,y=114
+mousemove button=0,shift=0,x=80,y=105
+mousemove button=0,shift=0,x=85,y=97
+mousemove button=0,shift=0,x=89,y=90
+mousemove button=0,shift=0,x=94,y=85
+mousemove button=0,shift=0,x=98,y=81
+mousemove button=0,shift=0,x=104,y=76
+mousemove button=0,shift=0,x=109,y=74
+mousemove button=0,shift=0,x=115,y=72
+mousemove button=0,shift=0,x=117,y=71
+mousemove button=0,shift=0,x=122,y=69
+mousemove button=0,shift=0,x=126,y=68
+mousemove button=0,shift=0,x=134,y=68
+mousemove button=0,shift=0,x=149,y=70
+mousemove button=0,shift=0,x=155,y=73
+mousemove button=0,shift=0,x=162,y=77
+mousemove button=0,shift=0,x=170,y=82
+mousemove button=0,shift=0,x=170,y=82
+mousemove button=0,shift=0,x=178,y=89
+mousemove button=0,shift=0,x=183,y=95
+mousemove button=0,shift=0,x=206,y=122
+mousemove button=0,shift=0,x=231,y=160
+mousemove button=0,shift=0,x=236,y=170
+mousemove button=0,shift=0,x=241,y=180
+mousemove button=0,shift=0,x=244,y=187
+mousemove button=0,shift=0,x=245,y=191
+mousemove button=0,shift=0,x=245,y=193
+mousemove button=0,shift=0,x=245,y=194
+mousemove button=0,shift=0,x=243,y=194
+mousemove button=0,shift=0,x=240,y=194
+mousemove button=0,shift=0,x=236,y=194
+mousemove button=0,shift=0,x=230,y=192
+mousemove button=0,shift=0,x=224,y=190
+mousemove button=0,shift=0,x=204,y=183
+mousemove button=0,shift=0,x=195,y=180
+mousemove button=0,shift=0,x=187,y=176
+mousemove button=0,shift=0,x=183,y=174
+mousemove button=0,shift=0,x=179,y=171
+mousemove button=0,shift=0,x=172,y=159
+mousemove button=0,shift=0,x=172,y=156
+mousemove button=0,shift=0,x=172,y=151
+mousemove button=0,shift=0,x=172,y=145
+mousemove button=0,shift=0,x=182,y=121
+mousemove button=0,shift=0,x=185,y=115
+mousemove button=0,shift=0,x=189,y=111
+mousemove button=0,shift=0,x=190,y=110
+mousemove button=0,shift=0,x=192,y=107
+mousemove button=0,shift=0,x=193,y=104
+mousemove button=0,shift=0,x=194,y=101
+mousemove button=0,shift=0,x=196,y=98
+mousemove button=0,shift=0,x=197,y=96
+mousemove button=0,shift=0,x=197,y=94
+mousemove button=0,shift=0,x=198,y=91
+mousemove button=0,shift=0,x=198,y=91
+mousemove button=0,shift=0,x=200,y=87
+mousemove button=0,shift=0,x=203,y=83
+mousemove button=0,shift=0,x=205,y=79
+mousemove button=0,shift=0,x=208,y=73
+mousemove button=0,shift=0,x=211,y=69
+mousemove button=0,shift=0,x=214,y=65
+mousemove button=0,shift=0,x=215,y=61
+mousemove button=0,shift=0,x=217,y=55
+mousemove button=0,shift=0,x=218,y=52
+mousemove button=0,shift=0,x=219,y=44
+mousemove button=0,shift=0,x=220,y=40
+mousemove button=0,shift=0,x=221,y=37
+mousemove button=0,shift=0,x=221,y=36
+mousemove button=0,shift=0,x=222,y=31
+mousemove button=0,shift=0,x=223,y=29
+mousemove button=0,shift=0,x=225,y=26
+mousemove button=0,shift=0,x=228,y=24
+buttondropdown FILE;MENU::FILE
+HandleControlEvent, ButtonDropDown
+setting menuimagelist to 171071488
+New Control Instance Obtained:920060
+HandleControlEvent, RequestNewInstance
+BEFORESHOWMENU:FILE::SUBMENU
+File::SUBMENU
+beforeShowMenu end FILE::SUBMENU
+HandleControlEvent, BeforeShowMenu
+beforeshowmenu:FILE::SUBMENU
+playing:C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\SHOWMENU.WAV
+HandleControlEvent, Resize
+HandleControlEvent, Resize
+HandleControlEvent, ButtonHighlight
+HandleControlEvent, ButtonHighlight
+HandleControlEvent, ButtonHighlight
+HandleControlEvent, ButtonHighlight
+HandleControlEvent, ButtonHighlight
+HandleControlEvent, AfterShowMenu
+Clicked: caption=&Exit key=FILE::EXIT TAG=FILE::EXIT
+ButtonClick
+Persisting Combo/List box- section = PersistProperties.cboLookin...
+After:hwnd=788942 umsg=70
+WINDOWPOSCHANGING

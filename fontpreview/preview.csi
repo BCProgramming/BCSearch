@@ -1,0 +1,8 @@
+[History]
+1=#P0#=mb	#P1#=rtbpreview_OLEDragDrop	#P2#=Project1/UCFontPreview/rtbpreview_OLEDragDrop	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20100105144708	#P7#=0	#P8#=1	.
+2=#P0#=mb	#P1#=UserControl_OLECompleteDrag	#P2#=Project1/UCFontPreview/UserControl_OLECompleteDrag	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20100105144614	#P7#=0	#P8#=0	.
+3=#P0#=mb	#P1#=UserControl_OLEDragDrop	#P2#=Project1/UCFontPreview/UserControl_OLEDragDrop	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20100105144601	#P7#=0	#P8#=-1	.
+4=#P0#=mb	#P1#=UserControl_OLEDragOver	#P2#=Project1/UCFontPreview/UserControl_OLEDragOver	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20100105144550	#P7#=0	#P8#=1	.
+5=#P0#=mb	#P1#=Form_Load	#P2#=Project1/FrmFontPreview/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20100105145312	#P7#=0	#P8#=1	.
+6=#P0#=mb	#P1#=Form_OLEDragOver	#P2#=Project1/FrmFontPreview/Form_OLEDragOver	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20100105144132	#P7#=0	#P8#=4	.
+7=#P0#=mb	#P1#=Form_OLEDragDrop	#P2#=Project1/FrmFontPreview/Form_OLEDragDrop	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20100105145034	#P7#=0	#P8#=1	.

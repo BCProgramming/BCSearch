@@ -1,0 +1,89 @@
+BASeCamp BCSearch Version 1.9
+
+
+
+
+BCSearch allows you to specify a number of "filters". a Filter can either include or exclude files as they are searched. a filter set to "include" will include all 
+files that meet it's specifications regardless of the results of other filters, and exclude does the same the other way. Note that filters are tested in order, so an Exclude filter before an include filter
+will effectively stop the include filter from working with any items that were filtered out by the exclude filter.
+
+The other two values are "And" and "Or" And requires that the item also meet the specifications set forth by the previous filters.
+
+I plan on making the filter names a bit more intuitive... for all intents and purposes  the abilities of "And" and "or" filters are easily duplicated by arrangements of Exclude and Include filters.
+
+Note that if you don't add any filters before searching, it will locate all files.
+
+
+Special Note- the menus as provided can be modified by changing the contents of "MENUXML.XML" in the application directory.
+
+*change: the menu XML and ini file are both found in the %APPDATA% folder.
+
+Current Compatibility:
+
+Runs on Windows Vista and Windows XP, just as designed.
+
+a Quick install/test with Windows 2000... and it runs there as well, with a few issues related to the alpha used in icons.
+
+does NOT run in windows 9x/ME, I believe the Imagelist fails to load the icons entirely.
+
+
+
+
+version history:
+
+1.9.0
+
+- changed the three filter editing buttons into a commandbar.
+- rewrote filter listview handling code
+- patched up the VBAccelerator Listview control to allow for custom sort comparisons in an event.
+- patched some of the XML parsing code so that an imagelist can have the images loaded in a format optimal for the OS and screen bit depth. Operating Systems below XP will not load 32bpp alpha icons.
+1.6.3 
+
+- small toolbar added.
+
+- Removed Save and Open Items from menu- No use having incomplete features available.
+
+- Added features to the XML menu loading to support the toolbars.
+
+- Made "Filters" listview use "fullrowselect" feature.
+
+
+
+1.6.0
+
+- Menu Item Images specified via XML
+- Scriptable Menu items via XML and VBScript/JScript
+- fixed minor bug regarding "send to" menu when multiple items were selected- now the Shift key must be pressed to enumerate A: or B: drives, however. (will probably make this an INI file option...)
+-fixed bug with "Filter" listview "Edit" option causing a crash.
+
+
+-rewrote association code for listview items and search filters
+
+1.5.0
+
+Removed dependency on Microsoft XML Parser library, opting instead for a Visual Basic implemented solution. (which I renamed "VBXML" and recompiled).
+
+Few quick changes, and bam... all the code I had that was using the MSXML library now uses this new library instead. ^_^
+
+
+
+
+1.4.0
+
+Fixed crash bug due to IVariantEnumerable- removed For...Each Looping ability of Files and Directories Collections :(
+
+Fixed ANOTHER crash bug related to a single line of code I accidentally retained for the aforementioned IVariantEnumerable.
+
+Fixed Bug in resizing code that caused a crash when the main window was shrunk too much (thanks to "camerongray" for reminding me of this)
+
+Recompiled the VBAccelerator CommandBar control- my version implements the usage of alpha on each menu popup.
+
+
+
+Version 1.2: changed back to VBAccelerator Listview control from my modified version (turns out behaviour I added was unnecessary). fixed installer (1.1 didn't work... woops!)
+
+Version 1.1: minor revisions. changed "imagelist" handling to use the System imagelist for reduced memory consumption, 
+added Directory Size Analyzer, fixed Listview Right-Click behaviour in main search window.
+
+
+version 1.0: Initial release.

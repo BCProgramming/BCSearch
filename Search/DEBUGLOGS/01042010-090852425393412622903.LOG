@@ -1,0 +1,906 @@
+BASeCamp CDebug Class Debug Log output.
+log at 01/04/2010 on TERATRON as BC_Programming at 09:08.52
+################################################################################
+System Info for this session:
+Environment variables:
+
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\BC_Programming\AppData\Roaming
+CG_BOOST_ROOT=C:\Program Files (x86)\CodeGear\RAD Studio\6.0\include\boost_1_35
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=TERATRON
+ComSpec=C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK=NO
+HOMEDRIVE=C:
+HOMEPATH=\Users\BC_Programming
+LOCALAPPDATA=C:\Users\BC_Programming\AppData\Local
+LOGONSERVER=\\TERATRON
+NUMBER_OF_PROCESSORS=4
+OPENSSL_CONF=C:\OpenSSL\bin\openssl.cfg
+OS=Windows_NT
+Path=C:\Python\Scripts;C:\Python\;C:\Program Files (x86)\CodeGear\RAD Studio\6.0\bin;C:\Users\Public\Documents\RAD Studio\6.0\Bpl;C:\Perl\site\bin;C:\Perl\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin;C:\Program Files (x86)\Common Files\microsoft shared\MSENV;C:\Program Files (x86)\Common Files\microsoft shared\VSA\9.0\VsaEnv;C:\PROGRA~2\Borland\Delphi6\Bin;C:\PROGRA~2\Borland\Delphi6\Projects\Bpl;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files (x86)\backburner 2\;C:\Users\BC_Programming\AppData\Roaming\Python\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin;C:\Program Files (x86)\Common Files\microsoft shared\MSENV;C:\Program Files (x86)\Common Fi
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.py;.pyw
+PROCESSOR_ARCHITECTURE=x86
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 23 Stepping 7, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=1707
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files (x86)
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PUBLIC=C:\Users\Public
+SystemDrive=C:
+SystemRoot=C:\Windows
+TEMP=C:\Users\BC_PRO~1\AppData\Local\Temp
+TMP=C:\Users\BC_PRO~1\AppData\Local\Temp
+USERDOMAIN=TERATRON
+USERNAME=BC_Programming
+USERPROFILE=C:\Users\BC_Programming
+VS90COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\Tools\
+windir=C:\Windows
+__COMPAT_LAYER=RunAsAdmin RunAsAdmin 
+
+
+################################################################################
+***************BEGIN LOG*******************
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+XML load successful in CXMLLoader::LoadXML
+optimal bitdepth is 32 bits.
+unrecognized NodeName for commandbar load:SCRIPTS
+unrecognized NodeName for commandbar load:
+unrecognized NodeName for commandbar load:IMAGELIST
+unrecognized NodeName for commandbar load:IMAGELIST
+DefClick=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=8
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=13
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=15
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=14
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=16
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=13
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=17
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=11
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=18
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=25
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=17
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=26
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=27
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=28
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=29
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=8
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+HandleControlEvent, Resize
+DefClick=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=18
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=20
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=7
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+DefClick=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=5
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=6
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+DefClick=
+Click=
+picindex=2
+Click=
+picindex=-1
+Click=
+picindex=-1
+DefClick=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=11
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=12
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=-1
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=10
+Click=C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+picindex=9
+HandleControlEvent, Resize
+unrecognized NodeName for commandbar load:TOOLBAR
+setting toolbarimagelist(1)...
+setting toolbarimagelist(2)...
+After:hwnd=330726 umsg=36
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+HandleControlEvent, Resize
+HandleControlEvent, Resize
+After:hwnd=330726 umsg=36
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+Loading Combo/List box- section = PersistProperties.cboLookin...
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+not duplicating List item.
+Clicked: caption=&Add... key=FILTERS::ADD TAG=FILTERS::ADD
+ButtonClick
+1
+Loading Combo/List box- section = PersistProperties.cboFilter...
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+
+HandleControlEvent, ButtonClick
+playing:C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+not duplicating List item.
+Change
+Change
+Change
+Change
+Change
+Change
+Change
+Change
+0
+0
+Change
+Change
+Change
+Change
+Change
+Change
+Change
+Change
+0
+0
+Persisting Combo/List box- section = PersistProperties.cboSizesuffix.1...
+Persisting Combo/List box- section = PersistProperties.cboSizesuffix.0...
+Persisting Combo/List box- section = PersistProperties.cboOperation...
+Persisting Combo/List box- section = PersistProperties.cboFilter...
+Persisting Combo/List box- section = PersistProperties.cboADSThanMultiplier.1...
+Persisting Combo/List box- section = PersistProperties.cboADSThanMultiplier.0...
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+mousemove button=1,shift=0,x=643,y=25
+not duplicating List item.
+optimal bitdepth is 32 bits.
+HandleControlEvent, Resize
+Clicked: caption=&Edit... key=FILTERS::EDIT TAG=FILTERS::EDIT
+ButtonClick
+1
+Loading Combo/List box- section = PersistProperties.cboFilter...
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+HandleControlEvent, ButtonClick
+playing:C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+not duplicating List item.
+Change
+Change
+Change
+Change
+Change
+Change
+Change
+Change
+0
+0
+Change
+Change
+Change
+Change
+Change
+Change
+Change
+Change
+0
+0
+Persisting Combo/List box- section = PersistProperties.cboSizesuffix.1...
+Persisting Combo/List box- section = PersistProperties.cboSizesuffix.0...
+Persisting Combo/List box- section = PersistProperties.cboOperation...
+Persisting Combo/List box- section = PersistProperties.cboFilter...
+Persisting Combo/List box- section = PersistProperties.cboADSThanMultiplier.1...
+Persisting Combo/List box- section = PersistProperties.cboADSThanMultiplier.0...
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+mousemove button=0,shift=0,x=336,y=27
+mousemove button=0,shift=0,x=327,y=44
+mousemove button=0,shift=0,x=323,y=49
+mousemove button=0,shift=0,x=321,y=53
+mousemove button=0,shift=0,x=317,y=58
+mousemove button=0,shift=0,x=316,y=59
+mousemove button=0,shift=0,x=315,y=59
+mousemove button=0,shift=0,x=314,y=59
+mousemove button=0,shift=0,x=311,y=62
+mousemove button=0,shift=0,x=305,y=65
+mousemove button=0,shift=0,x=303,y=65
+mousemove button=0,shift=0,x=302,y=65
+mousemove button=0,shift=0,x=301,y=65
+mousemove button=0,shift=0,x=301,y=65
+mousemove button=0,shift=0,x=300,y=65
+mousemove button=0,shift=0,x=294,y=65
+mousemove button=0,shift=0,x=287,y=64
+mousemove button=0,shift=0,x=279,y=64
+mousemove button=0,shift=0,x=273,y=64
+mousemove button=0,shift=0,x=268,y=64
+mousemove button=0,shift=0,x=262,y=64
+mousemove button=0,shift=0,x=255,y=67
+mousemove button=0,shift=0,x=250,y=69
+mousemove button=0,shift=0,x=242,y=72
+mousemove button=0,shift=0,x=239,y=74
+mousemove button=0,shift=0,x=233,y=78
+mousemove button=0,shift=0,x=219,y=91
+mousemove button=0,shift=0,x=214,y=96
+mousemove button=0,shift=0,x=210,y=99
+mousemove button=0,shift=0,x=205,y=104
+mousemove button=0,shift=0,x=193,y=115
+mousemove button=0,shift=0,x=187,y=119
+mousemove button=0,shift=0,x=182,y=123
+mousemove button=0,shift=0,x=177,y=125
+mousemove button=0,shift=0,x=171,y=129
+mousemove button=0,shift=0,x=166,y=132
+mousemove button=0,shift=0,x=163,y=132
+mousemove button=0,shift=0,x=151,y=138
+mousemove button=0,shift=0,x=146,y=139
+mousemove button=0,shift=0,x=139,y=141
+mousemove button=0,shift=0,x=136,y=144
+mousemove button=0,shift=0,x=130,y=147
+mousemove button=0,shift=0,x=128,y=148
+mousemove button=0,shift=0,x=126,y=149
+mousemove button=0,shift=0,x=125,y=150
+mousemove button=0,shift=0,x=123,y=150
+mousemove button=0,shift=0,x=122,y=151
+mousemove button=0,shift=0,x=121,y=152
+mousemove button=0,shift=0,x=118,y=154
+mousemove button=0,shift=0,x=116,y=156
+mousemove button=0,shift=0,x=115,y=158
+mousemove button=0,shift=0,x=113,y=158
+mousemove button=0,shift=0,x=112,y=161
+mousemove button=0,shift=0,x=109,y=164
+mousemove button=0,shift=0,x=108,y=165
+mousemove button=0,shift=0,x=107,y=167
+mousemove button=0,shift=0,x=106,y=168
+mousemove button=0,shift=0,x=106,y=168
+mousemove button=0,shift=0,x=104,y=170
+mousemove button=0,shift=0,x=103,y=174
+mousemove button=0,shift=0,x=101,y=176
+mousemove button=0,shift=0,x=100,y=178
+mousemove button=0,shift=0,x=100,y=179
+mousemove button=0,shift=0,x=99,y=181
+mousemove button=0,shift=0,x=98,y=184
+mousemove button=0,shift=0,x=97,y=187
+mousemove button=0,shift=0,x=95,y=194
+mousemove button=0,shift=0,x=95,y=195
+mousemove button=0,shift=0,x=95,y=197
+mousemove button=0,shift=0,x=95,y=199
+mousemove button=0,shift=0,x=94,y=202
+mousemove button=0,shift=0,x=94,y=204
+mousemove button=0,shift=0,x=94,y=205
+mousemove button=0,shift=0,x=93,y=212
+mousemove button=0,shift=0,x=93,y=215
+mousemove button=0,shift=0,x=93,y=217
+mousemove button=0,shift=0,x=93,y=218
+mousemove button=0,shift=0,x=93,y=223
+mousemove button=0,shift=0,x=93,y=224
+mousemove button=0,shift=0,x=93,y=226
+mousemove button=0,shift=0,x=93,y=229
+mousemove button=0,shift=0,x=93,y=230
+mousemove button=0,shift=0,x=93,y=231
+mousemove button=0,shift=0,x=93,y=232
+mousemove button=0,shift=0,x=92,y=233
+mousemove button=0,shift=0,x=92,y=234
+mousemove button=0,shift=0,x=91,y=235
+mousemove button=0,shift=0,x=89,y=236
+mousemove button=0,shift=0,x=87,y=236
+mousemove button=0,shift=0,x=86,y=237
+mousemove button=0,shift=0,x=84,y=237
+mousemove button=0,shift=0,x=83,y=237
+mousemove button=0,shift=0,x=81,y=236
+mousemove button=0,shift=0,x=79,y=236
+mousemove button=0,shift=0,x=78,y=235
+mousemove button=0,shift=0,x=75,y=234
+mousemove button=0,shift=0,x=70,y=233
+mousemove button=0,shift=0,x=67,y=231
+mousemove button=0,shift=0,x=66,y=230
+mousemove button=0,shift=0,x=64,y=229
+mousemove button=0,shift=0,x=61,y=229
+mousemove button=0,shift=0,x=60,y=228
+mousemove button=0,shift=0,x=58,y=227
+mousemove button=0,shift=0,x=57,y=227
+mousemove button=0,shift=0,x=56,y=226
+mousemove button=0,shift=0,x=55,y=225
+mousemove button=0,shift=0,x=54,y=224
+mousemove button=0,shift=0,x=53,y=224
+mousemove button=0,shift=0,x=53,y=223
+mousemove button=0,shift=0,x=52,y=221
+mousemove button=0,shift=0,x=52,y=220
+mousemove button=0,shift=0,x=51,y=219
+mousemove button=0,shift=0,x=51,y=218
+mousemove button=0,shift=0,x=51,y=217
+mousemove button=0,shift=0,x=51,y=216
+mousemove button=0,shift=0,x=51,y=214
+mousemove button=0,shift=0,x=50,y=213
+mousemove button=0,shift=0,x=50,y=212
+mousemove button=0,shift=0,x=49,y=210
+mousemove button=0,shift=0,x=49,y=208
+mousemove button=0,shift=0,x=49,y=207
+mousemove button=0,shift=0,x=48,y=205
+mousemove button=0,shift=0,x=48,y=205
+mousemove button=0,shift=0,x=47,y=201
+mousemove button=0,shift=0,x=47,y=200
+mousemove button=0,shift=0,x=46,y=198
+mousemove button=0,shift=0,x=46,y=196
+mousemove button=0,shift=0,x=46,y=195
+mousemove button=0,shift=0,x=46,y=194
+mousemove button=0,shift=0,x=46,y=193
+mousemove button=0,shift=0,x=46,y=191
+mousemove button=0,shift=0,x=46,y=190
+mousemove button=0,shift=0,x=45,y=190
+mousemove button=0,shift=0,x=45,y=188
+mousemove button=0,shift=0,x=45,y=187
+mousemove button=0,shift=0,x=45,y=186
+mousemove button=0,shift=0,x=45,y=185
+mousemove button=0,shift=0,x=45,y=184
+mousemove button=0,shift=0,x=45,y=183
+mousemove button=0,shift=0,x=45,y=182
+mousemove button=0,shift=0,x=46,y=181
+mousemove button=0,shift=0,x=46,y=179
+mousemove button=0,shift=0,x=48,y=174
+mousemove button=0,shift=0,x=49,y=174
+mousemove button=0,shift=0,x=49,y=173
+mousemove button=0,shift=0,x=49,y=172
+mousemove button=0,shift=0,x=49,y=170
+mousemove button=0,shift=0,x=50,y=169
+mousemove button=0,shift=0,x=51,y=169
+mousemove button=0,shift=0,x=51,y=168
+mousemove button=0,shift=0,x=52,y=167
+mousemove button=0,shift=0,x=52,y=166
+mousemove button=0,shift=0,x=54,y=165
+mousemove button=0,shift=0,x=55,y=164
+mousemove button=0,shift=0,x=56,y=164
+mousemove button=0,shift=0,x=59,y=162
+mousemove button=0,shift=0,x=63,y=161
+mousemove button=0,shift=0,x=65,y=160
+mousemove button=0,shift=0,x=67,y=158
+mousemove button=0,shift=0,x=72,y=156
+mousemove button=0,shift=0,x=77,y=154
+mousemove button=0,shift=0,x=77,y=154
+mousemove button=0,shift=0,x=101,y=145
+mousemove button=0,shift=0,x=127,y=141
+mousemove button=0,shift=0,x=139,y=141
+mousemove button=0,shift=0,x=150,y=141
+mousemove button=0,shift=0,x=162,y=141
+mousemove button=0,shift=0,x=170,y=142
+mousemove button=0,shift=0,x=182,y=143
+mousemove button=0,shift=0,x=195,y=145
+mousemove button=0,shift=0,x=210,y=147
+mousemove button=0,shift=0,x=224,y=149
+mousemove button=0,shift=0,x=236,y=150
+mousemove button=0,shift=0,x=264,y=153
+mousemove button=0,shift=0,x=274,y=154
+mousemove button=0,shift=0,x=282,y=155
+mousemove button=0,shift=0,x=286,y=156
+mousemove button=0,shift=0,x=293,y=157
+mousemove button=0,shift=0,x=297,y=158
+mousemove button=0,shift=0,x=301,y=159
+mousemove button=0,shift=0,x=302,y=160
+mousemove button=0,shift=0,x=303,y=160
+mousemove button=0,shift=0,x=304,y=160
+mousemove button=0,shift=0,x=305,y=161
+mousemove button=0,shift=0,x=306,y=161
+mousemove button=0,shift=0,x=306,y=163
+mousemove button=0,shift=0,x=312,y=173
+mousemove button=0,shift=0,x=314,y=184
+mousemove button=0,shift=0,x=314,y=188
+mousemove button=0,shift=0,x=315,y=191
+mousemove button=0,shift=0,x=315,y=194
+mousemove button=0,shift=0,x=315,y=199
+mousemove button=0,shift=0,x=315,y=200
+mousemove button=0,shift=0,x=315,y=203
+mousemove button=0,shift=0,x=315,y=206
+mousemove button=0,shift=0,x=315,y=208
+mousemove button=0,shift=0,x=315,y=210
+mousemove button=0,shift=0,x=314,y=215
+mousemove button=0,shift=0,x=313,y=217
+mousemove button=0,shift=0,x=312,y=219
+mousemove button=0,shift=0,x=311,y=220
+mousemove button=0,shift=0,x=310,y=221
+mousemove button=0,shift=0,x=308,y=224
+mousemove button=0,shift=0,x=306,y=225
+mousemove button=0,shift=0,x=305,y=227
+mousemove button=0,shift=0,x=303,y=230
+mousemove button=0,shift=0,x=301,y=231
+mousemove button=0,shift=0,x=297,y=235
+mousemove button=0,shift=0,x=294,y=237
+mousemove button=0,shift=0,x=289,y=240
+mousemove button=0,shift=0,x=287,y=240
+mousemove button=0,shift=0,x=286,y=241
+mousemove button=0,shift=0,x=282,y=243
+mousemove button=0,shift=0,x=280,y=243
+mousemove button=0,shift=0,x=279,y=243
+mousemove button=0,shift=0,x=276,y=243
+mousemove button=0,shift=0,x=275,y=243
+mousemove button=0,shift=0,x=273,y=243
+mousemove button=0,shift=0,x=267,y=243
+mousemove button=0,shift=0,x=261,y=240
+mousemove button=0,shift=0,x=259,y=239
+mousemove button=0,shift=0,x=256,y=237
+mousemove button=0,shift=0,x=254,y=236
+mousemove button=0,shift=0,x=252,y=231
+mousemove button=0,shift=0,x=249,y=227
+mousemove button=0,shift=0,x=246,y=218
+mousemove button=0,shift=0,x=244,y=214
+mousemove button=0,shift=0,x=241,y=203
+mousemove button=0,shift=0,x=238,y=191
+mousemove button=0,shift=0,x=233,y=178
+mousemove button=0,shift=0,x=225,y=135
+mousemove button=0,shift=0,x=221,y=119
+mousemove button=0,shift=0,x=215,y=54
+mousemove button=0,shift=0,x=215,y=54
+buttondropdown TOOLBAR::EXPORT;EXPORT
+HandleControlEvent, ButtonDropDown
+setting menuimagelist to 223657768
+New Control Instance Obtained:658424
+HandleControlEvent, RequestNewInstance
+BEFORESHOWMENU:TOOLBAR::EXPORT::SUBMENU
+beforeShowMenu end TOOLBAR::EXPORT::SUBMENU
+HandleControlEvent, BeforeShowMenu
+beforeshowmenu:TOOLBAR::EXPORT::SUBMENU
+playing:C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\SHOWMENU.WAV
+HandleControlEvent, Resize
+HandleControlEvent, Resize
+HandleControlEvent, ButtonHighlight
+HandleControlEvent, ButtonHighlight
+HandleControlEvent, AfterShowMenu
+Clicked: caption=To &HTML... key=EXPORT_HTML TAG=EXPORT_HTML
+ButtonClick
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING
+HandleControlEvent, ButtonClick
+playing:C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\CLICK.WAV
+buttondropdown FILE;MENU::FILE
+HandleControlEvent, ButtonDropDown
+BEFORESHOWMENU:FILE::SUBMENU
+File::SUBMENU
+beforeShowMenu end FILE::SUBMENU
+HandleControlEvent, BeforeShowMenu
+beforeshowmenu:FILE::SUBMENU
+playing:C:\Users\BC_Programming\AppData\Roaming\BCSearch\Resource\Sound\SHOWMENU.WAV
+HandleControlEvent, Resize
+HandleControlEvent, Resize
+HandleControlEvent, ButtonHighlight
+HandleControlEvent, ButtonHighlight
+HandleControlEvent, ButtonHighlight
+HandleControlEvent, ButtonHighlight
+HandleControlEvent, AfterShowMenu
+Clicked: caption=&Exit key=FILE::EXIT TAG=FILE::EXIT
+ButtonClick
+Persisting Combo/List box- section = PersistProperties.cboLookin...
+After:hwnd=330726 umsg=70
+WINDOWPOSCHANGING

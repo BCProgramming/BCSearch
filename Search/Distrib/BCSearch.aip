@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT type="Advanced Installer" CreateVersion="7.0.1" version="7.3.1" modules="freeware" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="ALLUSERS" Value="2"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="BannerBitmap" MultiBuildValue="DefaultBuild:default_banner.bmp" Type="1"/>
+    <ROW Property="DialogBitmap" MultiBuildValue="DefaultBuild:default_dialog.bmp" Type="1"/>
+    <ROW Property="Manufacturer" Value="BASeCamp" ValueLocId="*"/>
+    <ROW Property="ProductCode" Value="1033:{B7EFE3DE-98D2-429B-93FD-07DF1BAB6BD7} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="BCSearch" ValueLocId="*"/>
+    <ROW Property="ProductVersion" Value="2.1.0"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{60988739-4A6C-4F35-A2B4-A2BCAAC1D47E}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 98 SE" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT" MultiBuildValue="DefaultBuild:Windows NT 4.0 Service Pack 5" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="AppDataFolder" Directory_Parent="TARGETDIR" DefaultDir="AppDat~1|AppDataFolder" IsPseudoRoot="1"/>
+    <ROW Directory="BCSearch_DIR" Directory_Parent="AppDataFolder" DefaultDir="BCSearch"/>
+    <ROW Directory="DLL_DIR" Directory_Parent="APPDIR" DefaultDir="DLL"/>
+    <ROW Directory="ICONS_DIR" Directory_Parent="resource_DIR" DefaultDir="ICONS"/>
+    <ROW Directory="SCRIPTS_DIR" Directory_Parent="resource_DIR" DefaultDir="SCRIPTS"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="SOUND_DIR" Directory_Parent="resource_DIR" DefaultDir="SOUND"/>
+    <ROW Directory="SendTo_DIR" Directory_Parent="resource_DIR" DefaultDir="SendTo"/>
+    <ROW Directory="SystemFolder" Directory_Parent="TARGETDIR" DefaultDir="System~1|SystemFolder" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="other_DIR" Directory_Parent="resource_DIR" DefaultDir="other"/>
+    <ROW Directory="ovum_DIR" Directory_Parent="other_DIR" DefaultDir="ovum"/>
+    <ROW Directory="resource_DIR" Directory_Parent="BCSearch_DIR" DefaultDir="resource"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="BCCParser.dll" ComponentId="{4649736C-90EA-4C09-87C1-C030499A833E}" Directory_="DLL_DIR" Attributes="0" KeyPath="BCCParser.dll"/>
+    <ROW Component="BCFile.dll" ComponentId="{22B64C01-3964-458C-852D-5EBD73095DA4}" Directory_="DLL_DIR" Attributes="0" KeyPath="BCFile.dll"/>
+    <ROW Component="BC_XML.dll" ComponentId="{FC588DA8-A064-4E6B-8086-858AB6C1C97D}" Directory_="DLL_DIR" Attributes="0" KeyPath="BC_XML.dll"/>
+    <ROW Component="BSearch.ini" ComponentId="{56F265F0-EEC6-49BF-A3C8-81A7B0523612}" Directory_="BCSearch_DIR" Attributes="0" KeyPath="BSearch.ini" Type="0"/>
+    <ROW Component="GDIPlusWrapper.dll" ComponentId="{E60408AD-2FB5-4024-8282-0F9A95A0345E}" Directory_="DLL_DIR" Attributes="0" KeyPath="GDIPlusWrapper.dll"/>
+    <ROW Component="MSSCRIPT.CNT" ComponentId="{821C5DE2-CB47-4DCC-963F-17A7887DA773}" Directory_="SystemFolder" Attributes="0" KeyPath="MSSCRIPT.HLP" Type="2"/>
+    <ROW Component="Mscomct2.ocx" ComponentId="{18A697C0-BF50-4799-954B-9B2B5773951C}" Directory_="SystemFolder" Attributes="0" KeyPath="Mscomct2.ocx"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{B1D909D3-9282-412B-8A19-8FE680663EBA}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="SSubTmr6.dll" ComponentId="{EE88F9CE-F396-468C-B5AF-0928476961BB}" Directory_="DLL_DIR" Attributes="0" KeyPath="SSubTmr6.dll"/>
+    <ROW Component="Search.exe" ComponentId="{42A77783-EBC5-418F-874F-AB76DE190626}" Directory_="APPDIR" Attributes="0" KeyPath="Search.exe"/>
+    <ROW Component="TLBINF32.DLL" ComponentId="{A57CF958-AA8A-4972-84DE-32263FC87580}" Directory_="SystemFolder" Attributes="0" KeyPath="TLBINF32.DLL"/>
+    <ROW Component="access.ico" ComponentId="{8275DBC7-31B0-47E1-8A1B-560B1E0962F4}" Directory_="ICONS_DIR" Attributes="0" KeyPath="access.ico" Type="0"/>
+    <ROW Component="cNewMenu6.dll" ComponentId="{B0087365-8D17-479C-9624-44D14DE53911}" Directory_="DLL_DIR" Attributes="0" KeyPath="cNewMenu6.dll"/>
+    <ROW Component="click.wav" ComponentId="{26B149C7-EA65-40D6-8CFE-18D2E9511D70}" Directory_="SOUND_DIR" Attributes="0" KeyPath="click.wav" Type="0"/>
+    <ROW Component="menu.vbs" ComponentId="{052178F0-ECBC-41ED-B5C4-4080B875D526}" Directory_="SCRIPTS_DIR" Attributes="0" KeyPath="menu.vbs" Type="0"/>
+    <ROW Component="menuxml.xml" ComponentId="{B7D221C9-A6A5-4E64-A83B-D01326ADE042}" Directory_="APPDIR" Attributes="0" KeyPath="Search.exe.Manifest" Type="0"/>
+    <ROW Component="msscript.ocx" ComponentId="{FAABB6F8-A831-49C5-9060-F81802A82EDC}" Directory_="SystemFolder" Attributes="0" KeyPath="msscript.ocx"/>
+    <ROW Component="msxml3.dll" ComponentId="{76D23C65-A85A-46FF-A6C9-B5E23C848DA8}" Directory_="SystemFolder" Attributes="0" KeyPath="msxml3.dll"/>
+    <ROW Component="notepad.bat" ComponentId="{A48AFE8B-036F-48AD-A803-CB9CEC35D894}" Directory_="SendTo_DIR" Attributes="0" KeyPath="notepad.bat" Type="0"/>
+    <ROW Component="psmpassovr.html" ComponentId="{4433D981-6172-4374-9D52-C332A7F4193A}" Directory_="ovum_DIR" Attributes="0" KeyPath="psmpassovr.html" Type="0"/>
+    <ROW Component="scrrun.dll" ComponentId="{46C95976-A3A9-4A16-A106-1261857673CF}" Directory_="SystemFolder" Attributes="0" KeyPath="scrrun.dll"/>
+    <ROW Component="vbaListView6BC.ocx" ComponentId="{957A0F20-1BD5-40B0-9CD0-9E9A201F8293}" Directory_="DLL_DIR" Attributes="0" KeyPath="vbaListView6BC.ocx"/>
+    <ROW Component="vbalCmdBar6.ocx" ComponentId="{6CFB04AC-511E-40C6-ACAA-EB2ACDD6F3E6}" Directory_="DLL_DIR" Attributes="0" KeyPath="vbalCmdBar6.ocx"/>
+    <ROW Component="vbalExpBar6.ocx" ComponentId="{EDD417BE-27C6-4439-A7EC-44E7491D0C36}" Directory_="DLL_DIR" Attributes="0" KeyPath="vbalExpBar6.ocx"/>
+    <ROW Component="vbalScrb6.ocx" ComponentId="{FA62EFBB-4CDE-41F4-9140-36764A72E39F}" Directory_="DLL_DIR" Attributes="0" KeyPath="vbalScrb6.ocx"/>
+    <ROW Component="vbalTab6.ocx" ComponentId="{9D154494-5613-4C53-A52A-829F1A55813E}" Directory_="DLL_DIR" Attributes="0" KeyPath="vbalTab6.ocx"/>
+    <ROW Component="vbscript.dll" ComponentId="{148C92CF-83C3-43C4-A856-3E7E727F5D2C}" Directory_="SystemFolder" Attributes="0" KeyPath="vbscript.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Attributes="0" Components="menuxml.xml Search.exe vbscript.dll msscript.ocx scrrun.dll SSubTmr6.dll cNewMenu6.dll msxml3.dll Mscomct2.ocx SHORTCUTDIR GDIPlusWrapper.dll vbalExpBar6.ocx vbalScrb6.ocx vbalTab6.ocx TLBINF32.DLL BC_XML.dll MSSCRIPT.CNT vbalCmdBar6.ocx vbaListView6BC.ocx BCFile.dll BCCParser.dll BSearch.ini access.ico psmpassovr.html menu.vbs notepad.bat click.wav"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="BCCParser.dll" Component_="BCCParser.dll" FileName="BCCPar~1.dll|BCCParser.dll" Attributes="0" SourcePath="..\..\..\cmdparse\BCCParser.dll" SelfReg="true" Sequence="23"/>
+    <ROW File="BCFile.dll" Component_="BCFile.dll" FileName="BCFile.dll" Attributes="0" SourcePath="release\BCFile.dll" SelfReg="true" Sequence="22"/>
+    <ROW File="BC_XML.dll" Component_="BC_XML.dll" FileName="BC_XML.dll" Attributes="0" SourcePath="..\..\..\XMLparse\BC_XML.dll" SelfReg="true" Sequence="15"/>
+    <ROW File="BSearch.ini" Component_="BSearch.ini" FileName="BSearch.ini" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\BSearch.ini" SelfReg="false" Sequence="24"/>
+    <ROW File="CONFIG.ICO" Component_="access.ico" FileName="CONFIG.ICO" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\CONFIG.ICO" SelfReg="false" Sequence="39"/>
+    <ROW File="CRS.ico" Component_="access.ico" FileName="CRS.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\CRS.ico" SelfReg="false" Sequence="42"/>
+    <ROW File="DETAILS.BMP" Component_="access.ico" FileName="DETAILS.BMP" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\DETAILS.BMP" SelfReg="false" Sequence="46"/>
+    <ROW File="Delete.ico" Component_="access.ico" FileName="Delete.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\Delete.ico" SelfReg="false" Sequence="45"/>
+    <ROW File="Disc_Drive.ico" Component_="access.ico" FileName="DiscDr~1.ico|Disc Drive.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\Disc Drive.ico" SelfReg="false" Sequence="48"/>
+    <ROW File="Floppy.ico" Component_="access.ico" FileName="Floppy.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\Floppy.ico" SelfReg="false" Sequence="61"/>
+    <ROW File="GDIPlusWrapper.dll" Component_="GDIPlusWrapper.dll" FileName="GDIPlu~1.dll|GDIPlusWrapper.dll" Attributes="0" SourcePath="release\GDIPlusWrapper.dll" SelfReg="true" Sequence="10"/>
+    <ROW File="Hard_Drive.ico" Component_="access.ico" FileName="Hard-D~1.ico|Hard-Drive.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\Hard-Drive.ico" SelfReg="false" Sequence="65"/>
+    <ROW File="LARGEICONS.BMP" Component_="access.ico" FileName="LARGEI~1.BMP|LARGEICONS.BMP" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\LARGEICONS.BMP" SelfReg="false" Sequence="69"/>
+    <ROW File="LIST.BMP" Component_="access.ico" FileName="LIST.BMP" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\LIST.BMP" SelfReg="false" Sequence="70"/>
+    <ROW File="MSSCRIPT.CNT" Component_="MSSCRIPT.CNT" FileName="MSSCRIPT.CNT" Attributes="0" SourcePath="C:\Windows\SysWOW64\MSSCRIPT.CNT" SelfReg="false" Sequence="16"/>
+    <ROW File="MSSCRIPT.HLP" Component_="MSSCRIPT.CNT" FileName="MSSCRIPT.HLP" Attributes="0" SourcePath="C:\Windows\SysWOW64\MSSCRIPT.HLP" SelfReg="false" Sequence="17"/>
+    <ROW File="MinusTvw.ico" Component_="access.ico" FileName="MinusTvw.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\MinusTvw.ico" SelfReg="false" Sequence="73"/>
+    <ROW File="Mscomct2.ocx" Component_="Mscomct2.ocx" FileName="Mscomct2.ocx" Attributes="0" SourcePath="C:\WINDOWS\system32\Mscomct2.ocx" SelfReg="true" Sequence="8"/>
+    <ROW File="PRINTERS.ICO" Component_="access.ico" FileName="PRINTERS.ICO" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\PRINTERS.ICO" SelfReg="false" Sequence="79"/>
+    <ROW File="PROP.BMP" Component_="access.ico" FileName="PROP.BMP" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\PROP.BMP" SelfReg="false" Sequence="80"/>
+    <ROW File="PlusTvw.ico" Component_="access.ico" FileName="PlusTvw.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\PlusTvw.ico" SelfReg="false" Sequence="78"/>
+    <ROW File="SETTINGS.ICO" Component_="access.ico" FileName="SETTINGS.ICO" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\SETTINGS.ICO" SelfReg="false" Sequence="88"/>
+    <ROW File="SHUT.ico" Component_="access.ico" FileName="SHUT.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\SHUT.ico" SelfReg="false" Sequence="90"/>
+    <ROW File="SHUTDOWN.ICO" Component_="access.ico" FileName="SHUTDOWN.ICO" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\SHUTDOWN.ICO" SelfReg="false" Sequence="91"/>
+    <ROW File="SMALLICONS.BMP" Component_="access.ico" FileName="SMALLI~1.BMP|SMALLICONS.BMP" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\SMALLICONS.BMP" SelfReg="false" Sequence="92"/>
+    <ROW File="SSubTmr6.dll" Component_="SSubTmr6.dll" FileName="SSubTmr6.dll" Attributes="0" SourcePath="..\..\..\..\..\ActiveX\Collected\SSubTmr6.dll" SelfReg="true" Sequence="5"/>
+    <ROW File="Search.exe" Component_="Search.exe" FileName="Search.exe" Attributes="0" SourcePath="release\Search.exe" SelfReg="false" Sequence="1"/>
+    <ROW File="Search.exe.Manifest" Component_="menuxml.xml" FileName="Search~1.Man|Search.exe.Manifest" Attributes="0" SourcePath="release\Search.exe.Manifest" SelfReg="false" Sequence="9"/>
+    <ROW File="TLBINF32.DLL" Component_="TLBINF32.DLL" FileName="TLBINF32.DLL" Attributes="0" SourcePath="C:\WINDOWS\system32\TLBINF32.DLL" SelfReg="true" Sequence="14"/>
+    <ROW File="Wrong.ico" Component_="access.ico" FileName="Wrong.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\Wrong.ico" SelfReg="false" Sequence="103"/>
+    <ROW File="access.ico" Component_="access.ico" FileName="access.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\access.ico" SelfReg="false" Sequence="27"/>
+    <ROW File="add.ico" Component_="access.ico" FileName="add.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\add.ico" SelfReg="false" Sequence="28"/>
+    <ROW File="binoculars.ico" Component_="access.ico" FileName="binocu~1.ico|binoculars.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\binoculars.ico" SelfReg="false" Sequence="29"/>
+    <ROW File="board.ico" Component_="access.ico" FileName="board.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\board.ico" SelfReg="false" Sequence="30"/>
+    <ROW File="buglist.txt" Component_="BSearch.ini" FileName="buglist.txt" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\buglist.txt" SelfReg="false" Sequence="25"/>
+    <ROW File="cNewMenu6.dll" Component_="cNewMenu6.dll" FileName="cNewMe~1.dll|cNewMenu6.dll" Attributes="0" SourcePath="..\..\..\..\..\ActiveX\Collected\cNewMenu6.dll" SelfReg="true" Sequence="6"/>
+    <ROW File="cal_5_.ico" Component_="access.ico" FileName="cal(5)~1.ico|cal (5).ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\cal (5).ico" SelfReg="false" Sequence="31"/>
+    <ROW File="calculator.ico" Component_="access.ico" FileName="calcul~1.ico|calculator.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\calculator.ico" SelfReg="false" Sequence="32"/>
+    <ROW File="calendar.ico" Component_="access.ico" FileName="calendar.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\calendar.ico" SelfReg="false" Sequence="33"/>
+    <ROW File="clear.ico" Component_="access.ico" FileName="clear.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\clear.ico" SelfReg="false" Sequence="34"/>
+    <ROW File="click.wav" Component_="click.wav" FileName="click.wav" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\SOUND\click.wav" SelfReg="false" Sequence="111"/>
+    <ROW File="close.ico" Component_="access.ico" FileName="close.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\close.ico" SelfReg="false" Sequence="35"/>
+    <ROW File="close_sq.ico" Component_="access.ico" FileName="close_sq.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\close_sq.ico" SelfReg="false" Sequence="36"/>
+    <ROW File="close_sq_bl.ico" Component_="access.ico" FileName="close_~1.ico|close_sq_bl.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\close_sq_bl.ico" SelfReg="false" Sequence="37"/>
+    <ROW File="cls.ico" Component_="access.ico" FileName="cls.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\cls.ico" SelfReg="false" Sequence="38"/>
+    <ROW File="copy.ico" Component_="access.ico" FileName="copy.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\copy.ico" SelfReg="false" Sequence="40"/>
+    <ROW File="critical.ico" Component_="access.ico" FileName="critical.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\critical.ico" SelfReg="false" Sequence="41"/>
+    <ROW File="cut.ico" Component_="access.ico" FileName="cut.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\cut.ico" SelfReg="false" Sequence="43"/>
+    <ROW File="delete_2_.ico" Component_="access.ico" FileName="delete~1.ico|delete (2).ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\delete (2).ico" SelfReg="false" Sequence="44"/>
+    <ROW File="details.ico" Component_="access.ico" FileName="details.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\details.ico" SelfReg="false" Sequence="47"/>
+    <ROW File="docs.ico" Component_="access.ico" FileName="docs.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\docs.ico" SelfReg="false" Sequence="49"/>
+    <ROW File="dollar.ico" Component_="access.ico" FileName="dollar.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\dollar.ico" SelfReg="false" Sequence="50"/>
+    <ROW File="donate.html" Component_="menuxml.xml" FileName="donate~1.htm|donate.html" Attributes="0" SourcePath="..\donate.html" SelfReg="false" Sequence="18"/>
+    <ROW File="downarrow.ico" Component_="access.ico" FileName="downar~1.ico|downarrow.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\downarrow.ico" SelfReg="false" Sequence="51"/>
+    <ROW File="edit_tool.ico" Component_="access.ico" FileName="edit-t~1.ico|edit-tool.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\edit-tool.ico" SelfReg="false" Sequence="52"/>
+    <ROW File="exclamation.ico" Component_="access.ico" FileName="exclam~1.ico|exclamation.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\exclamation.ico" SelfReg="false" Sequence="53"/>
+    <ROW File="export.ico" Component_="access.ico" FileName="export.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\export.ico" SelfReg="false" Sequence="54"/>
+    <ROW File="favourites.ico" Component_="access.ico" FileName="favour~1.ico|favourites.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\favourites.ico" SelfReg="false" Sequence="55"/>
+    <ROW File="filter.ico" Component_="access.ico" FileName="filter.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\filter.ico" SelfReg="false" Sequence="56"/>
+    <ROW File="filter_add.ico" Component_="access.ico" FileName="filter~1.ico|filter_add.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\filter_add.ico" SelfReg="false" Sequence="57"/>
+    <ROW File="filter_remove.ico" Component_="access.ico" FileName="filter~2.ico|filter_remove.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\filter_remove.ico" SelfReg="false" Sequence="58"/>
+    <ROW File="find_file.ico" Component_="access.ico" FileName="find_f~1.ico|find_file.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\find_file.ico" SelfReg="false" Sequence="60"/>
+    <ROW File="findico.ico" Component_="access.ico" FileName="findico.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\findico.ico" SelfReg="false" Sequence="59"/>
+    <ROW File="folder.ico" Component_="access.ico" FileName="folder.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\folder.ico" SelfReg="false" Sequence="62"/>
+    <ROW File="folder_search.ico" Component_="access.ico" FileName="folder~1.ico|folder_search.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\folder_search.ico" SelfReg="false" Sequence="63"/>
+    <ROW File="globe.ico" Component_="access.ico" FileName="globe.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\globe.ico" SelfReg="false" Sequence="64"/>
+    <ROW File="help.ico" Component_="access.ico" FileName="help.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\help.ico" SelfReg="false" Sequence="66"/>
+    <ROW File="icohelp.ico" Component_="access.ico" FileName="icohelp.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\icohelp.ico" SelfReg="false" Sequence="67"/>
+    <ROW File="information.ico" Component_="access.ico" FileName="inform~1.ico|information.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\information.ico" SelfReg="false" Sequence="68"/>
+    <ROW File="magnify32.ico" Component_="access.ico" FileName="magnif~1.ico|magnify32.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\magnify32.ico" SelfReg="false" Sequence="71"/>
+    <ROW File="magnify32.png" Component_="access.ico" FileName="magnif~1.png|magnify32.png" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\magnify32.png" SelfReg="false" Sequence="72"/>
+    <ROW File="menu.vbs" Component_="menu.vbs" FileName="menu.vbs" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\SCRIPTS\menu.vbs" SelfReg="false" Sequence="108"/>
+    <ROW File="menuxml.xml" Component_="BSearch.ini" FileName="menuxml.xml" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\menuxml.xml" SelfReg="false" Sequence="26"/>
+    <ROW File="msscript.ocx" Component_="msscript.ocx" FileName="msscript.ocx" Attributes="0" SourcePath="C:\Windows\SysWOW64\msscript.ocx" SelfReg="true" Sequence="3"/>
+    <ROW File="msxml3.dll" Component_="msxml3.dll" FileName="msxml3.dll" Attributes="0" SourcePath="C:\WINDOWS\system32\msxml3.dll" SelfReg="true" Sequence="7"/>
+    <ROW File="musicnote.ico" Component_="access.ico" FileName="musicn~1.ico|musicnote.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\musicnote.ico" SelfReg="false" Sequence="74"/>
+    <ROW File="new.ico" Component_="access.ico" FileName="new.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\new.ico" SelfReg="false" Sequence="75"/>
+    <ROW File="notepad.bat" Component_="notepad.bat" FileName="notepad.bat" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\SendTo\notepad.bat" SelfReg="false" Sequence="109"/>
+    <ROW File="paste.ico" Component_="access.ico" FileName="paste.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\paste.ico" SelfReg="false" Sequence="76"/>
+    <ROW File="pcsettings.ico" Component_="access.ico" FileName="pcsett~1.ico|pcsettings.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\pcsettings.ico" SelfReg="false" Sequence="77"/>
+    <ROW File="psmpassovr.html" Component_="psmpassovr.html" FileName="psmpas~1.htm|psmpassovr.html" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\other\ovum\psmpassovr.html" SelfReg="false" Sequence="106"/>
+    <ROW File="question.ico" Component_="access.ico" FileName="question.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\question.ico" SelfReg="false" Sequence="81"/>
+    <ROW File="readme.txt" Component_="menuxml.xml" FileName="readme.txt" Attributes="0" SourcePath="..\readme.txt" SelfReg="false" Sequence="20"/>
+    <ROW File="recycleempty.ico" Component_="access.ico" FileName="recycl~1.ico|recycleempty.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\recycleempty.ico" SelfReg="false" Sequence="82"/>
+    <ROW File="recyclefull.ico" Component_="access.ico" FileName="recycl~2.ico|recyclefull.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\recyclefull.ico" SelfReg="false" Sequence="83"/>
+    <ROW File="refresh.ico" Component_="access.ico" FileName="refresh.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\refresh.ico" SelfReg="false" Sequence="84"/>
+    <ROW File="save.ico" Component_="access.ico" FileName="save.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\save.ico" SelfReg="false" Sequence="85"/>
+    <ROW File="scrrun.dll" Component_="scrrun.dll" FileName="scrrun.dll" Attributes="0" SourcePath="C:\WINDOWS\system32\scrrun.dll" SelfReg="true" Sequence="4"/>
+    <ROW File="search.ico" Component_="access.ico" FileName="search.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\search.ico" SelfReg="false" Sequence="86"/>
+    <ROW File="sendto.ini" Component_="notepad.bat" FileName="sendto.ini" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\SendTo\sendto.ini" SelfReg="false" Sequence="110"/>
+    <ROW File="set_as_default.ico" Component_="access.ico" FileName="setasd~1.ico|set as default.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\set as default.ico" SelfReg="false" Sequence="87"/>
+    <ROW File="setup.ico" Component_="access.ico" FileName="setup.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\setup.ico" SelfReg="false" Sequence="89"/>
+    <ROW File="showmenu.wav" Component_="click.wav" FileName="showmenu.wav" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\SOUND\showmenu.wav" SelfReg="false" Sequence="112"/>
+    <ROW File="sort_ascend.ico" Component_="access.ico" FileName="sort_a~1.ico|sort_ascend.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\sort_ascend.ico" SelfReg="false" Sequence="93"/>
+    <ROW File="sort_descend.ico" Component_="access.ico" FileName="sort_d~1.ico|sort_descend.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\sort_descend.ico" SelfReg="false" Sequence="94"/>
+    <ROW File="stats.ico" Component_="access.ico" FileName="stats.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\stats.ico" SelfReg="false" Sequence="95"/>
+    <ROW File="stop.ico" Component_="access.ico" FileName="stop.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\stop.ico" SelfReg="false" Sequence="96"/>
+    <ROW File="thelastpossum.png" Component_="psmpassovr.html" FileName="thelas~1.png|thelastpossum.png" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\other\ovum\thelastpossum.png" SelfReg="false" Sequence="107"/>
+    <ROW File="tip.ico" Component_="access.ico" FileName="tip.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\tip.ico" SelfReg="false" Sequence="97"/>
+    <ROW File="undo.ico" Component_="access.ico" FileName="undo.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\undo.ico" SelfReg="false" Sequence="98"/>
+    <ROW File="uparrow.ico" Component_="access.ico" FileName="uparrow.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\uparrow.ico" SelfReg="false" Sequence="99"/>
+    <ROW File="vbaListView6BC.ocx" Component_="vbaListView6BC.ocx" FileName="vbaLis~1.ocx|vbaListView6BC.ocx" Attributes="0" SourcePath="..\vbaListView6BC.ocx" SelfReg="true" Sequence="21"/>
+    <ROW File="vbalCmdBar6.ocx" Component_="vbalCmdBar6.ocx" FileName="vbalCm~1.ocx|vbalCmdBar6.ocx" Attributes="0" SourcePath="..\..\..\..\..\ActiveX\CommandBar\VB6_CommandBar_Full_Source\vbalCmdBar6.ocx" SelfReg="true" Sequence="19"/>
+    <ROW File="vbalExpBar6.ocx" Component_="vbalExpBar6.ocx" FileName="vbalEx~1.ocx|vbalExpBar6.ocx" Attributes="0" SourcePath="..\..\..\..\..\ActiveX\Collected\vbalExpBar6.ocx" SelfReg="true" Sequence="11"/>
+    <ROW File="vbalScrb6.ocx" Component_="vbalScrb6.ocx" FileName="vbalSc~1.ocx|vbalScrb6.ocx" Attributes="0" SourcePath="..\..\..\..\..\ActiveX\Collected\vbalScrb6.ocx" SelfReg="true" Sequence="12"/>
+    <ROW File="vbalTab6.ocx" Component_="vbalTab6.ocx" FileName="vbalTab6.ocx" Attributes="0" SourcePath="..\..\..\..\..\ActiveX\Collected\vbalTab6.ocx" SelfReg="true" Sequence="13"/>
+    <ROW File="vbscript.dll" Component_="vbscript.dll" FileName="vbscript.dll" Attributes="0" SourcePath="C:\WINDOWS\system32\vbscript.dll" SelfReg="true" Sequence="2"/>
+    <ROW File="web_page.ico" Component_="access.ico" FileName="webpag~1.ico|web page.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\web page.ico" SelfReg="false" Sequence="100"/>
+    <ROW File="winword.ico" Component_="access.ico" FileName="winword.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\winword.ico" SelfReg="false" Sequence="101"/>
+    <ROW File="worddoc.ico" Component_="access.ico" FileName="worddoc.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\worddoc.ico" SelfReg="false" Sequence="102"/>
+    <ROW File="zoom_.ico" Component_="access.ico" FileName="zoom_~1.ico|zoom+.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\zoom+.ico" SelfReg="false" Sequence="104"/>
+    <ROW File="zoom_.ico_1" Component_="access.ico" FileName="zoom-.ico" Attributes="0" SourcePath="C:\Users\BC_Programming\AppData\Roaming\BCSearch\resource\ICONS\zoom-.ico" SelfReg="false" Sequence="105"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="en" InstallationType="4"/>
+    <ATTRIBUTE name="CurrentBuild" value="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+    <ROW Name="default_banner.bmp" SourcePath="&lt;AI_THEMES&gt;classic\resources\default-banner.bmp"/>
+    <ROW Name="default_dialog.bmp" SourcePath="&lt;AI_THEMES&gt;classic\resources\default-dialog.bmp"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ATTRIBUTE name="FixedSizeBitmaps" value="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="3"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="2"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="3"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]" MultiBuildTarget="DefaultBuild:[ProgramMenuFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="SystemFolder_msiexec.exe" SourcePath="..\..\..\..\..\Programs\Caphyon\Advanced Installer 7.0.1\resources\uninstall.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="Not Installed" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="Version9X OR VersionNT64 OR ((VersionNT &gt; 400) OR ((VersionNT = 400) AND (ServicePackLevel &gt;= 5)))" Description="[ProductName] cannot be installed on systems earlier than [WindowsTypeNT]" DescriptionLocId="AI.LaunchCondition.NoSpecificNT" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT OR ((Version9X &gt;= 410) AND (WindowsBuild &gt;= 2222))" Description="[ProductName] cannot be installed on systems earlier than [WindowsType9X]" DescriptionLocId="AI.LaunchCondition.NoSpecific9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="BCSearch_Utility" Directory_="SHORTCUTDIR" Name="BCSear~1|BCSearch Utility" Component_="Search.exe" Target="[#Search.exe]" Description="Start the BASeCamp BCSearch File Search utility." Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="Uninstall_BCSearch" Directory_="SHORTCUTDIR" Name="Uninst~1|Uninstall BCSearch" Component_="SHORTCUTDIR" Target="[SystemFolder]msiexec.exe" Arguments="/x [ProductCode]" Description="Uninstall BCSearch and it&apos;s components." Hotkey="0" Icon_="SystemFolder_msiexec.exe" IconIndex="0" ShowCmd="1" WkDir="SystemFolder"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ROW ThemeName="classic" ThemeManifestFilePath="&lt;AI_THEMES&gt;classic\classic.ini"/>
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMax="[|ProductVersion]" Attributes="1025" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>

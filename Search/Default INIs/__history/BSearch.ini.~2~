@@ -1,0 +1,5 @@
+[BCSearch]
+Theme=Default
+[Appearance.Default]
+CommandBarStyle=3 ;Comctl32
+FilesListViewGridLines=True
